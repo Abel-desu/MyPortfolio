@@ -12,9 +12,9 @@ exercise how to make the portifolios
 
 ## 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@abel-desu]
+- Twitter: [abeldesalegn]
+- LinkedIn: [Abel Desalegn]
 
 
 ## 🤝 Contributing
@@ -35,4 +35,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is microverse licensed.
