@@ -1,10 +1,8 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
 portfolio
 > Description the project.
-
-
+exercise how to make the portifolios
 ## Built With
 
 - html and css
