@@ -113,18 +113,11 @@ top: 12px; */
   font-size: 17px;
   line-height: 24px;
   text-decoration: none;
-
-  /* identical to box height, or 141% */
-
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -152,14 +145,7 @@ top: 12px; */
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-
-  /* Theme 1 / Primary Colors 2 */
-
   color: #6070ff;
-
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
