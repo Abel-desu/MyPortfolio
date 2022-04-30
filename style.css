@@ -113,6 +113,7 @@ top: 12px; */
   font-size: 17px;
   line-height: 24px;
   text-decoration: none;
+
   /* identical to box height, or 141% */
 
   display: flex;
@@ -191,7 +192,7 @@ a:active {
   width: 93px;
   height: 48px;
   left: 407px;
-  top: calc(50% - 48px/2 + 57.5px);
+  top: calc(50% - 48px / 2 + 57.5px);
 
   /* background: #2230D2; */
   border-radius: 8px;
