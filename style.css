@@ -1,3 +1,4 @@
+
 .fa-bars {
   position: absolute;
   left: 339.67px;
@@ -45,7 +46,7 @@
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
-  color: rgb(0, 0, 255);
+  color: rgb(10, 10, 59);
 }
 
 .text1 {
@@ -91,15 +92,105 @@ h1 {
 li {
   overflow: hidden;
 }
+.social-media ul li :hover {
+  background-color: rgb(155, 155, 237);
+}
+a{
+  position: static;
+/* width: 69px;
+height: 24px;
+left: 12px;
+top: 12px; */
 
-/* .social_links ul li a {
+/* Theme 1 / Button Normal */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+
+
+color: #FFFFFF; 
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px -4px;
+}
+.a:enabled{
+  position: static;
+width: 69px;
+height: 24px;
+left: 12px;
+top: 12px;
+
+/* Theme 1 / Button Normal */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height, or 141% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+
+/* Theme 1 / Primary Colors 2 */
+
+color: #6070FF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+a:hover{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  
   position: absolute;
-  left: 4.4%;
-  right: 88.27%;
-  top: 127.81%;
-  bottom: 18.88%;
+  width: 93px;
+  height: 48px;
+  left: 407px;
+  top: calc(50% - 48px/2 + 57.5px);
+  
+  /* Theme 1 / Primary Colors 1 */
+  
+  /* background: #2230D2; */
+  border-radius: 8px;
+}
+a:active{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
 
-} */
+position: absolute;
+width: 93px;
+height: 48px;
+left: 407px;
+top: calc(50% - 48px/2 + 57.5px);
+/* background: #2230D2; */
+border-radius: 8px;
+}
 .twit-icon {
   position: absolute;
   left: 35.4px;
@@ -112,7 +203,7 @@ li {
   position: absolute;
   left: 48.4px;
   right: 88.27%;
-  top: 4044.8px;
+  top: 3623.8px;
   bottom: 18.88%;
 }
 
@@ -128,7 +219,7 @@ li {
   position: absolute;
   left: 74px;
   right: 77.87%;
-  top: 4044.8px;
+  top: 3623.8px;
   bottom: 18.87%;
 }
 
@@ -144,7 +235,7 @@ li {
   position: absolute;
   left: 121.1px;
   right: 57.07%;
-  top: 4044.8px;
+  top: 3623.8px;
   bottom: 18.87%;
 }
 
@@ -160,7 +251,7 @@ li {
   position: absolute;
   left: 98.4px;
   right: 67.2%;
-  top: 4047.8px;
+  top: 3626.8px;
   bottom: 19.21%;
 }
 
@@ -176,13 +267,12 @@ li {
   position: absolute;
   left: 143.47px;
   right: 67.2%;
-  top: 4047.15px;
+  top: 3623.8px;
   bottom: 19.21%;
 }
-
 .card-work {
   margin-top: 30px;
-  height: 600px;
+  height: 494px;
   width: 296px;
   border-radius: 16px;
   padding: 43px;
@@ -472,7 +562,7 @@ li {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: -72px 0;
+  margin: -74px 0;
 }
 
 .frame1 .p1 {
@@ -513,7 +603,7 @@ li {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: -135px 0;
+  margin: -156px 0;
 }
 
 .primary4 {
@@ -601,7 +691,7 @@ li {
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: -60px -9px;
+  margin: -102px -9px;
 }
 
 .left1-block ul {
@@ -703,6 +793,17 @@ li {
 
 .action {
   position: static;
+  width: 83px;
+  height: 6px;
+  left: 0px;
+  top: 216px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: -18px 0;
+}
+.action0 {
+  position: static;
   width: 295px;
   height: 72px;
   left: 0;
@@ -710,7 +811,7 @@ li {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: 34px 0;
+  margin: -18px 0;
 }
 
 .action1 {
@@ -722,7 +823,7 @@ li {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: 43px 0;
+  margin: 16px 0;
 }
 
 .action2 {
@@ -734,7 +835,7 @@ li {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: -92px 0;
+  margin: -118px 0;
 }
 
 .action3 {
@@ -746,7 +847,7 @@ li {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: -185px -13px;
+  margin: -222px -13px;
 }
 
 .action4 {
@@ -776,7 +877,22 @@ li {
   text-align: center;
   color: rgb(57, 109, 242);
 }
-
+.action0 p {
+  
+  height: 30px;
+  width: 164px;
+  border-radius: 8px;
+  margin-top: 0;
+  padding: 0;
+  font-size: 19px;
+  font-weight: 500px;
+  font-weight: medium;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  border: 1px solid rgb(57, 109, 242);
+  text-align: center;
+  color: rgb(57, 109, 242);
+}
 .action1 p {
   height: 30px;
   width: 150px;
@@ -824,21 +940,24 @@ li {
   text-align: center;
   color: rgb(57, 109, 242);
 }
-
+a{
+  text-decoration:none; 
+  
+}
 .action p {
   height: 30px;
-  width: 150px;
-  border-radius: 8px;
-  margin-top: 0;
-  padding: 4px;
-  font-size: 19px;
-  font-weight: 500px;
-  font-weight: medium;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  border: 1px solid rgb(57, 109, 242);
-  text-align: center;
-  color: rgb(57, 109, 242);
+    width: 150px;
+    border-radius: 8px;
+    margin-top: 0;
+    padding: 4px;
+    font-size: 19px;
+    font-weight: 500px;
+    font-weight: medium;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    border: 1px solid rgb(57, 109, 242);
+    text-align: center;
+    color: rgb(57, 109, 242);
 }
 
 .about {
