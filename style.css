@@ -92,105 +92,111 @@ h1 {
 li {
   overflow: hidden;
 }
+
 .social-media ul li :hover {
   background-color: rgb(155, 155, 237);
 }
-a{
+
+a {
   position: static;
-/* width: 69px;
+
+  /* width: 69px;
 height: 24px;
 left: 12px;
 top: 12px; */
 
-/* Theme 1 / Button Normal */
+  /* Theme 1 / Button Normal */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-/* identical to box height, or 141% */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-decoration: none;
+  /* identical to box height, or 141% */
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
 
 
-color: #FFFFFF; 
+  /* Inside auto layout */
 
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px -4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 -4px;
 }
-.a:enabled{
+
+.a:enabled {
   position: static;
-width: 69px;
-height: 24px;
-left: 12px;
-top: 12px;
+  width: 69px;
+  height: 24px;
+  left: 12px;
+  top: 12px;
 
-/* Theme 1 / Button Normal */
+  /* Theme 1 / Button Normal */
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-/* identical to box height, or 141% */
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
+  /* identical to box height, or 141% */
 
-/* Theme 1 / Primary Colors 2 */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-color: #6070FF;
+  /* Theme 1 / Primary Colors 2 */
+
+  color: #6070ff;
 
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0 10px;
 }
-a:hover{
+
+a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
-  
+  position: absolute;
+  width: 93px;
+  height: 48px;
+  left: 407px;
+  top: calc(50% - 48px / 2 + 57.5px);
+
+  /* Theme 1 / Primary Colors 1 */
+
+  /* background: #2230D2; */
+  border-radius: 8px;
+}
+
+a:active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
   position: absolute;
   width: 93px;
   height: 48px;
   left: 407px;
   top: calc(50% - 48px/2 + 57.5px);
-  
-  /* Theme 1 / Primary Colors 1 */
-  
+
   /* background: #2230D2; */
   border-radius: 8px;
 }
-a:active{
-  display: flex;
-flex-direction: row;
-align-items: center;
-padding: 12px;
 
-position: absolute;
-width: 93px;
-height: 48px;
-left: 407px;
-top: calc(50% - 48px/2 + 57.5px);
-/* background: #2230D2; */
-border-radius: 8px;
-}
 .twit-icon {
   position: absolute;
   left: 35.4px;
@@ -270,6 +276,7 @@ border-radius: 8px;
   top: 3623.8px;
   bottom: 19.21%;
 }
+
 .card-work {
   margin-top: 30px;
   height: 494px;
@@ -795,13 +802,14 @@ border-radius: 8px;
   position: static;
   width: 83px;
   height: 6px;
-  left: 0px;
+  left: 0;
   top: 216px;
   flex: none;
   order: 3;
   flex-grow: 0;
   margin: -18px 0;
 }
+
 .action0 {
   position: static;
   width: 295px;
@@ -877,8 +885,8 @@ border-radius: 8px;
   text-align: center;
   color: rgb(57, 109, 242);
 }
+
 .action0 p {
-  
   height: 30px;
   width: 164px;
   border-radius: 8px;
@@ -893,6 +901,7 @@ border-radius: 8px;
   text-align: center;
   color: rgb(57, 109, 242);
 }
+
 .action1 p {
   height: 30px;
   width: 150px;
@@ -940,24 +949,21 @@ border-radius: 8px;
   text-align: center;
   color: rgb(57, 109, 242);
 }
-a{
-  text-decoration:none; 
-  
-}
+
 .action p {
   height: 30px;
-    width: 150px;
-    border-radius: 8px;
-    margin-top: 0;
-    padding: 4px;
-    font-size: 19px;
-    font-weight: 500px;
-    font-weight: medium;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    border: 1px solid rgb(57, 109, 242);
-    text-align: center;
-    color: rgb(57, 109, 242);
+  width: 150px;
+  border-radius: 8px;
+  margin-top: 0;
+  padding: 4px;
+  font-size: 19px;
+  font-weight: 500px;
+  font-weight: medium;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  border: 1px solid rgb(57, 109, 242);
+  text-align: center;
+  color: rgb(57, 109, 242);
 }
 
 .about {
