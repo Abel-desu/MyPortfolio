@@ -99,29 +99,8 @@ li {
 
 a {
   position: static;
-
-  /* width: 69px;
-height: 24px;
-left: 12px;
-top: 12px; */
-
-  /* Theme 1 / Button Normal */
-
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
+  color: rgb(96, 112, 255);
   text-decoration: none;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0 -4px;
 }
 
 .a:enabled {
@@ -942,7 +921,7 @@ a:active {
   width: 150px;
   border-radius: 8px;
   margin-top: 0;
-  padding: 4px;
+  padding: 4px 4px;
   font-size: 19px;
   font-weight: 500px;
   font-weight: medium;
@@ -978,7 +957,7 @@ a:active {
 
 .left2-block ul li a {
   display: block;
-  padding: 4px 16px;
+  padding: 4px 24px;
   text-decoration: none;
   height: 16px;
   width: 29px;
@@ -992,7 +971,7 @@ a:active {
 
 .left-block ul li a {
   display: block;
-  padding: 4px 16px;
+  padding: 2px 28px;
   text-decoration: none;
   height: 16px;
   width: 29px;
@@ -1006,7 +985,7 @@ a:active {
 
 .left1-block ul li a {
   display: block;
-  padding: 4px 16px;
+  padding: 2px 28px;
   text-decoration: none;
   height: 16px;
   width: 29px;
