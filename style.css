@@ -1,8 +1,6 @@
 html {
-  
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  
 }
 
 .fa-bars {
@@ -863,7 +861,6 @@ a:active {
   height: 30px;
   width: 164px;
   border-radius: 8px;
-  margin-top: 0;
   padding: 0;
   font-size: 19px;
   font-weight: 500px;
@@ -874,7 +871,7 @@ a:active {
   text-align: center;
   color: rgb(57, 109, 242);
   margin: 21px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .action1 p {
@@ -959,6 +956,7 @@ a:active {
 .about .skill-list {
   height: 478px;
   width: 453px;
+
   /* padding: 8px 29px; */
 }
 
@@ -1070,6 +1068,7 @@ a:active {
   right: -247px;
   height: 4500px;
 }
+
 .frame12 .language-list li a {
   text-decoration: none;
 }
@@ -1110,7 +1109,7 @@ a:active {
   font-weight: bold;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  border-bottom: 0px solid rgb(205, 205, 205);
+  border-bottom: 0 solid rgb(205, 205, 205);
 }
 
 .frame12 ul .my-work1 {
@@ -1140,6 +1139,13 @@ a:active {
   text-align: left;
   height: 32px;
   width: 300px;
+}
+
+.contact-form p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .top .connect p {
@@ -1191,15 +1197,17 @@ a:active {
   margin-bottom: 13px;
 }
 
-.container1{
+.container1 {
   background-image: url(images/img12.png);
   background-repeat: no-repeat;
 }
-.shape{
+
+.shape {
   padding: 29px 153px;
   height: 861px;
   top: 4000px;
 }
+
 .header {
   /* position: absolute; */
   width: 808px;
@@ -1217,6 +1225,7 @@ a:active {
   color: #3f51b5;
   margin: -1370px 33px;
 }
+
 .primary {
   position: absolute;
   width: 327px;
@@ -1231,27 +1240,21 @@ a:active {
   text-align: center;
   color: #9c27b0;
 }
-.username{
+
+.username {
   position: absolute;
-left: 0px;
-/* width: 100px; */
-top: 0px;
+  left: 0;
 
-
-/* Mono/White */
-
-background: #FFFFFF;
-/* Base/100 */
-
-
-margin: 373px 88px;
+  /* width: 100px; */
+  top: 0;
+  margin: 373px 88px;
 }
+
 .text {
   position: absolute;
   height: 6839px;
   left: 16px;
-  /* right: 38px; */
-  top: calc(50% - 18px/2);
+  top: calc(50% - 18px / 2);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1259,24 +1262,27 @@ margin: 373px 88px;
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   margin-top: 139px;
 }
+
 .usernamecontainer {
   position: absolute;
-  left: 0px;
+  left: 0;
+
   /* right: 0px; */
   top: 4002px;
-  bottom: 0px;
+  bottom: 0;
   border: 1px solid rgb(57, 109, 242);
-  background: #FFFFFF;
+  background: #fff;
   border-radius: 16px;
 }
+
 .email {
   height: 18px;
   left: 155px;
   right: 38px;
-  top: calc(50% - 18px/2);
+  top: calc(50% - 18px / 2);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1284,9 +1290,10 @@ margin: 373px 88px;
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   margin: 10px 88px;
 }
+
 .emailcontainer {
   position: absolute;
   height: 18px;
@@ -1301,48 +1308,53 @@ margin: 373px 88px;
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   padding: 10px 10px;
 }
-.msg{
-  
-left: 0px;
-right: 0px;
-top: 0px;
-bottom: 0px;
 
-/* Mono/White */
+.msg {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 
-background: #FFFFFF;
-/* Base/100 */
+  /* Mono/White */
 
-border: 1px solid #CFD8DC;
-border-radius: 16px;
+  background: #fff;
+
+  /* Base/100 */
+
+  border: 1px solid #cfd8dc;
+  border-radius: 16px;
 }
+
 .message {
   position: absolute;
   left: 91px;
   top: 4454px;
+
   /* bottom: 343px; */
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #B3BAC5;
+  color: #b3bac5;
 }
+
 .get {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 14px 15px;
-    position: absolute;
-    width: 116px;
-    /* height: 393px; */
-    left: 89px;
-    top: 4544px;
-    background: #673ab7;
-    border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 15px;
+  position: absolute;
+  width: 116px;
+
+  /* height: 393px; */
+  left: 89px;
+  top: 4544px;
+  background: #673ab7;
+  border-radius: 16px;
 }
 
 .contact-form {
@@ -1372,13 +1384,6 @@ border-radius: 16px;
   line-height: 52px;
   color: #fff;
   margin-bottom: 5px;
-}
-
-.contact-form p {
-  color: #fff;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
 }
 
 #name,
@@ -1441,5 +1446,5 @@ hr {
   height: 8px;
   border-radius: 10px;
   background-color: #0d151e;
-  margin-top: 0px;
+  margin-top: 0;
 }
