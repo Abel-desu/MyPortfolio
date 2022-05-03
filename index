@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>portfolio skeleton</title>
+  
+  <body>
+    <img src="images/Light.jpg" alt="main">
+        <header class="container">
+          <div class="section">
+            <div class="logo-holder">
+            <a href="#" class="my-logo"><img src="images/MyLogo.png " alt="my-logo"> </a>
+            </div>
+          <nav class="hamburger">
+          <a href="#"><i class="fa fa-bars"></i></a>
+          <ul class="ul-style">
+            <li>
+            <a class="portfolio" href="#"></a>
+          </li>
+          
+        </ul>       
+        </nav>
+      </div>
+      </header>
+      <div class="mainsection">
+        <div class="maincontainer">
+         
+       
+        
+      <div class="section1">
+        <h1 class="text1">
+         
+          i'm Abel<br/>
+          Glad to see you!<br/></h1>
+        
+        <div class="text2">
+         <p> I'm a software developer! i can help you build a product, feature or website Look through someof my work and experience! if you like what you see and have you need coded, don't hesitate to contact me.</p>
+        </div>
+        
+        <div class="let">
+         <div class="text3">
+        <div class="action0">
+            <a href="#"><p>LET'S CONNECT</p></a>
+          </div>
+      </div>
+      </div>
+     
+        
+        
+        <div class=" social_links">
+          <ul>
+            <li>
+              <a href="#">
+                <img class="twit-icon" src="./images/twitter.png" alt="twit-icon">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="git-icon" src="./images/github.png" alt="git-icon">
+              </a>
+            </li>
+            
+            <li>
+              <a href="#">
+                <img class="ln-icon" src="./images/Linkedin-icon.png" alt="ln-icon">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="m-icon" src="./images/medium.png" alt="m-icon">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="a-icon" src="./images/angellist.png" alt="a-icon">
+              </a>
+            </li>
+           </ul>
+          </div>
+          </div>
+           </div>
+        </div>
+    <section class="work">
+      <div class="card-work">
+        <div class="card-image">
+          <img src="./images/Snapshootortfolio.jpg" alt="card-work">
+        </div>
+        <h2 class="h2">Tonic</h2>
+      <div class="left-block">
+          <div class="frame1">
+            <p>CONOPY</p>
+            <img src="./images/Counter.jpg" alt="">
+            <p class="p1">Back End Dev</p>
+            <img src="./images/Counter.jpg" alt="">
+            <p class="p1">2020</p>
+          </div>
+          
+            <p class="primary1">
+              A daily selection of privately<br />personalized reads; 
+            no accounts or<br /> sign-ups required.
+          </p>
+          <ul>
+            <li><a href="#">html</a></li>
+            <li><a href="#">css</a></li>
+            <li><a href="#">javascript</a></li>
+          </ul>
+          <div class="action">
+            <a href="#"><p>See Project</p></a>
+          </div>
+          </div>
+      </div>  
+              
+      
+               <div class="card-work">
+                <div class="card-image">
+                  <img src="./images/img1.jpg" alt="card-work">
+                </div>
+                <div class="left1-block">
+                  <h2 class="h2">
+                    Multi-Post
+                    Stories
+                  </h2>
+                  <div class="frame2">
+                    <p>CONOPY</p>
+                      <img src="./images/Counter.png" alt="">
+                    <p class="p1">Back End Dev</p>
+                      <img src="./images/Counter.png" alt="">
+                    <p class="p1">2020</p>
+                  </div>
+                  <p class="primary2">
+                    A daily selection of privately<br />personalized reads; 
+                    no accounts or<br /> sign-ups required.
+                  </p>
+                  <ul>
+                    <li><a href="#">html</a></li>
+                    <li><a href="#">css</a></li>
+                    <li><a href="#">javascript</a></li>
+                  </ul>
+          <div class="action1">
+          <a href="#"><p>See Project</p></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-work">
+        <div class="card-image">
+          <img src="./images/3.png" alt="card-work">
+        </div>
+        <h2 class="h2">Tonic</h2>
+      <div class="left2-block">
+          <div class="frame3">
+            <p>CONOPY</p>
+            <img src="./images/Counter.jpg" alt="">
+            <p class="p1">Back End Dev</p>
+            <img src="./images/Counter.jpg" alt="">
+            <p class="p1">2020</p>
+          </div>
+          
+            <p class="primary3">
+              A daily selection of privately<br />personalized reads; 
+            no accounts or<br /> sign-ups required.
+          </p>
+          <ul>
+            <li><a href="#">html</a></li>
+            <li><a href="#">css</a></li>
+            <li><a href="#">javascript</a></li>
+          </ul>
+          <div class="action2">
+            <a href="#"><p>See Project</p></a>
+          </div>
+          </div>
+      </div>  
+      <div class="card-work">
+        <div class="card-image">
+          <img src="./images/4.png" alt="card-work">
+          <h2 class="h2">
+            Multi-Post
+            Stories
+          </h2>
+        </div> 
+        <div class="left4-block">
+            <div class="frame4">
+              <p>CONOPY</p>
+              <img src="./images/Counter.jpg" alt="">
+              <p class="p1">Back End Dev</p>
+              <img src="./images/Counter.jpg" alt="">
+              <p class="p1">2020</p>
+            </div>
+        <p class="primary4">
+          A daily selection of privately<br />personalized reads; 
+          no accounts or<br /> sign-ups required.
+      </p>
+     <ul>
+        <li><a href="#">html</a></li>
+        <li><a href="#">css</a></li>
+        <li><a href="#">javascript</a></li>
+      </ul>
+      <div class="action3">
+        <a href="#"><p>See Project</p></a>
+      </div>
+    </div>
+        </div>
+        
+    </section>
+      <section class="about"> 
+      <div class="top">
+        <h2 class="h2">About<br />Myself</h2>
+        <div class="primary5">
+          <p>
+            Hello I am a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! 
+            If you like what you see and have a project you need coded, do not hesitate to contact me.
+          </p>
+        </div>
+        <div class="connect"> 
+         <a href="#"><p>LET US CONNECT</p></a>
+        </div>
+        <div class=" social_links1">
+          <ul>
+            <li>
+              <a href="#">
+                <img class="twit1-icon" src="./images/twitter.png" alt="twit-icon">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="git1-icon" src="./images/github.png" alt="git-icon">
+              </a>
+            </li>
+            
+            <li>
+              <a href="#">
+                <img class="ln1-icon" src="./images/Linkedin-icon.png" alt="ln-icon">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="m1-icon" src="./images/medium.png" alt="m-icon">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img class="a1-icon" src="./images/angellist.png" alt="a-icon">
+              </a>
+            </li>
+           </ul>
+          
+        </div>
+        <div class="action4">
+        <a><p>Get my Resume</p></a>
+        </div>
+      </div>
+      <div class="skill-list">
+        <div class="frame12">
+          <div class="language">
+            <span class="text">Languages</span>
+            <span class="down-angle"><i class="fa-solid fa-angle-down"></i></span>
+          </div>
+          <ul>
+            <li>
+              <div class="language-list">
+                <ul>
+                  <li><a href="#"> <img src="./images/js.png" alt=""><span>javaScript</span> </a></li>
+                  <li><a href="#"><img src="./images/html.png" alt=""><span>HTML</span></a></li>
+                  <li><a href="#"><img src="./images/css.png" alt=""><span>CSS</span></a></li>
+                </ul>
+              </div>
+            </li>
+              <li class="my-work">
+                <div class="frameworks">
+                  <span >Frameworks</span>
+                  <span class="greater-than"><i class="fa-solid fa-angle-right"></i></span>
+                </div>
+              </li>
+              <li class="my-work1">
+                <div class="skills">
+                  <span>skills</span>
+                  <span class="greater-than"><i class="fa-solid fa-angle-right"></i></span>
+                </div>
+              </li>
+          </ul>
+        </div>
+      </div>
+  
+    </section> 
+    <section class="form">
+    <div class="container">
+        <div class="shape">
+      <img src="images/shape.png" alt="shape">
+        </div>
+    </div>
+    <div class="header">
+        <p>contact me</p>
+    </div>
+    <div class="primary">
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+    </div>
+    <div class="usernamecontainer">
+    <div class="username">
+        <input class="text" type="text" id="fname" name="firstname" placeholder="Full Name" maxlength="30">
+    </div>
+    </div>
+    <div class="emailcontainer">
+        <input class="email" type="email" id="email" placeholder="email">
+    </div>
+    <div class="msg">
+        <textarea class="message" id="message"  rows="10" maxlength="500" placeholder="write your message here"></textarea>
+    </div>
+    <div class="get">
+        <div class="touch">
+            <button type="submit">Get in touch</button>
+        </div>
+    </div>
+    <div class="mono">
+        <img src="images/a.png" alt="mono">
+        </div>
+    
+    
+    
+    
+    </section>
+  
+  </body>
+ </html>

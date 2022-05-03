@@ -1186,6 +1186,8 @@ a:active {
 .container {
   background-image: url(images/img1.png);
   background-repeat: no-repeat;
+  height: 10px;
+  margin: 10px;
 }
 
 .shape {
