@@ -941,7 +941,7 @@ a:active {
 
 .about {
   margin-top: 17px;
-  height: 1422px;
+  height: 900px;
   width: 376px;
   padding: 114px, 24px, 114px, 24px;
 }
@@ -1397,8 +1397,8 @@ border-radius: 16px;
 }
 
 .contact-form div {
-  padding: 50px 12px 10px;
-  margin-top: 22px;
+  padding: 45px 12px 10px;
+  margin-top: 20px;
 }
 
 .contact-form h2 {
@@ -1406,6 +1406,7 @@ border-radius: 16px;
   font-size: 40px;
   line-height: 52px;
   color: #fff;
+  margin-bottom: 5px;
 }
 
 .contact-form p {
@@ -1474,7 +1475,7 @@ textarea {
 hr {
   width: 140px;
   height: 8px;
-  margin-top: 10px;
   border-radius: 10px;
   background-color: #0d151e;
+  margin-top: 0px;
 }
