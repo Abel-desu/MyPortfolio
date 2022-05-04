@@ -1263,7 +1263,7 @@ a:active {
   display: flex;
   align-items: center;
   color: #172b4d;
-  margin-top: 139px;
+  margin-top: -1px;
 }
 
 .usernamecontainer {
