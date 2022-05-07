@@ -2027,13 +2027,46 @@ hr {
   .frame11 ul {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    gap: 30px;
     padding: 12px;
     position: static;
     width: 414px;
-    height: 144px;
-    left: 0;
-    top: 72px;
+    height: 197px;
+  }
+
+  .frame11 ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .frame11.languages-list ul {
+    display: flex;
+    grid-gap: 20px;
+    width: auto;
+    margin-top: 0;
+    margin-right: 200px;
+  }
+
+  .frame11 ul li a {
+    flex-direction: column;
+
+    /* position: absolute; */
+    width: 100px;
+
+    /* height: 30px; */
+    left: 12px;
+    top: 76px;
+    background-color: #f7f7f9;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #253858;
+    margin-top: 0;
   }
 
   .frame11 ul .my-work {
@@ -2053,6 +2086,22 @@ hr {
     display: flex;
     align-items: center;
     color: #344563;
+  }
+
+  .frame11 .languages-list ul {
+    display: flex;
+    grid-gap: 20px;
+    width: auto;
+    margin-top: 0;
+    margin-right: 200px;
+  }
+
+  .frame11 .languages-list li {
+    display: list-item;
+    background: #f7f7f9;
+    border-radius: 8px;
+    height: 90px;
+    width: 130px;
   }
 
   .frame11 .my-work .greater-than {
@@ -2083,15 +2132,7 @@ hr {
     margin-right: 200px;
   }
 
-  .frame11 ul .languages-list li {
-    display: list-item;
-    background: #f7f7f9;
-    border-radius: 8px;
-    height: 90px;
-    width: 130px;
-  }
-
-  .frame11 ul .languages-list li img {
+  .frame11 .languages-list li img {
     padding-left: 10px;
   }
 
