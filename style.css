@@ -271,6 +271,22 @@ a {
   border-radius: 0;
 }
 
+.left1-block ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  position: static;
+  width: 423px;
+  height: 24px;
+  left: 24px;
+  top: 240px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0 0;
+}
+
 .left2-block {
   display: grid;
   grid-template-areas:
@@ -419,7 +435,7 @@ a {
 
 .frame2 .p1 {
   height: 113px;
-  width: 88px;
+  width: 98px;
   font-size: 13px;
   font-weight: 600px;
   line-height: 16px;
@@ -430,7 +446,7 @@ a {
 
 .frame3 .p1 {
   height: 113px;
-  width: 88px;
+  width: 94px;
   font-size: 13px;
   font-weight: 600px;
   line-height: 16px;
@@ -441,7 +457,7 @@ a {
 
 .frame4 .p1 {
   height: 113px;
-  width: 88px;
+  width: 101px;
   font-size: 13px;
   font-weight: 600px;
   line-height: 16px;
@@ -527,6 +543,72 @@ a {
   margin: -70px 7px;
 }
 
+.left4-block ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  position: static;
+  width: 203px;
+  height: 1px;
+  left: 24px;
+  top: 220px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: -228px 0;
+}
+
+.frame12 li {
+  text-align: left;
+  margin-bottom: 9px;
+  border-radius: 8px;
+  padding: 4px, 12px, 4px, 12px;
+}
+
+.left4-block ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  position: static;
+  width: 70px;
+  height: 24px;
+  left: 114px;
+  top: 0;
+  background: #ebebff;
+  border-radius: 8px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0 2px;
+}
+
+.left4-block ul li a {
+  position: static;
+  color: rgb(96, 112, 255);
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.left1-block ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  position: static;
+  width: 55px;
+  height: 24px;
+  left: 114px;
+  top: 0;
+  background: #ebebff;
+  border-radius: 8px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0 8px;
+}
+
 .primary1 {
   position: static;
   width: 295px;
@@ -560,7 +642,7 @@ a {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: -338px 0;
+  margin: -327px 0;
 }
 
 .primary5 {
@@ -602,7 +684,7 @@ a {
 .primary2 {
   position: static;
   width: 295px;
-  height: 76px;
+  height: 84px;
   left: 0;
   top: 92px;
   font-family: 'Poppins', sans-serif;
@@ -614,7 +696,7 @@ a {
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: -115px 0;
+  margin: -112px 0;
 }
 
 .left-block ul {
@@ -631,13 +713,6 @@ a {
   order: 2;
   flex-grow: 0;
   margin: -102px -9px;
-}
-
-.frame12 li {
-  text-align: left;
-  margin-bottom: 9px;
-  border-radius: 8px;
-  padding: 4px, 12px, 4px, 12px;
 }
 
 .left2-block ul {
@@ -672,22 +747,6 @@ a {
   margin: -143px -254px;
 }
 
-.left4-block ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  position: static;
-  width: 232px;
-  height: 70px;
-  left: 0;
-  top: 180px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  margin: -289px -11px;
-}
-
 .social_links1 ul li {
   float: left;
 }
@@ -696,8 +755,8 @@ a {
   float: left;
   text-align: center;
   margin-right: 8px;
-  height: 18px;
-  width: 89px;
+  height: 25px;
+  width: 87px;
   border-radius: 8px;
   padding: 4px, 12px, 4px, 12px;
   background: rgb(235, 235, 255);
@@ -747,7 +806,7 @@ a {
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: 16px 0;
+  margin: 15px 0;
 }
 
 .action2 {
@@ -765,13 +824,13 @@ a {
 .action3 {
   position: static;
   width: 295px;
-  height: 72px;
+  height: 75px;
   left: 0;
   top: 216px;
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: -222px -13px;
+  margin: -196px -13px;
 }
 
 .action4 {
@@ -957,45 +1016,15 @@ a {
   width: 302px;
 }
 
-.left4-block ul li {
-  float: left;
-  text-align: center;
-  margin-right: 0;
-  height: 18px;
-  width: 112px;
-  border-radius: 8px;
-  padding: 4px, 12px, 4px, 12px;
-  background: rgb(235, 235, 255);
-}
-
 .left-block ul li {
   float: left;
   text-align: center;
   margin-right: 8px;
-  height: 18px;
-  width: 89px;
+  height: 23px;
+  width: 84px;
   border-radius: 8px;
   padding: 4px, 12px, 4px, 12px;
   background: rgb(235, 235, 255);
-}
-
-.left1-block ul li {
-  position: static;
-  width: 65px;
-  height: 16px;
-  left: 12px;
-  top: 4px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0 0;
 }
 
 .frame12 .language-list {
@@ -1699,7 +1728,7 @@ hr {
     text-align: center;
     margin-right: 8px;
     height: 28px;
-    width: 106px;
+    width: 86px;
     border-radius: 8px;
     padding: 4px, 12px, 4px, 12px;
     background: rgb(235, 235, 255);
@@ -1721,6 +1750,49 @@ hr {
     order: 0;
     flex-grow: 0;
     margin: -2px 14px;
+  }
+
+  .left4-block {
+    display: grid;
+    grid-template-areas:
+      "A"
+      "B"
+      "C"
+      "D"
+      "E";
+    grid-template-columns: 1fr;
+    align-content: flex-start;
+    height: 320px;
+    width: 295px;
+    border-radius: 0;
+    margin: 29px 8px;
+  }
+
+  .left4-block ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    position: static;
+    width: 360px;
+    height: 70px;
+    left: 0;
+    top: 180px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: -70px -11px;
+  }
+
+  .left4-block ul li {
+    float: left;
+    text-align: center;
+    margin-right: 8px;
+    height: 25px;
+    width: 81px;
+    border-radius: 8px;
+    padding: 4px, 12px, 4px, 12px;
+    background: rgb(235, 235, 255);
   }
 
   .about {
@@ -1782,8 +1854,8 @@ hr {
 
   .frame3 .p1 {
     height: 113px;
-    width: 88px;
-    font-size: 11px;
+    width: 94px;
+    font-size: 13px;
     font-weight: 600px;
     line-height: 16px;
     letter-spacing: 0;
@@ -1898,7 +1970,7 @@ hr {
 
   .frame4 .p1 {
     height: 113px;
-    width: 94px;
+    width: 113px;
     font-size: 13px;
     font-weight: 600px;
     line-height: 16px;
