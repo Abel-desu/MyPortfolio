@@ -633,20 +633,16 @@ a {
   margin: -102px -9px;
 }
 
-.left1-block ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  position: static;
-  width: 316px;
-  height: 70px;
-  left: 0;
-  top: 180px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  margin: -59px -2px;
+.left1-block ul li {
+  float: left;
+  text-align: center;
+  margin-right: 8px;
+  height: 28px;
+  width: 100px;
+  border-radius: 8px;
+  padding: 4px, 12px, 4px, 12px;
+  background: rgb(235, 235, 255);
+  margin-right: 27px;
 }
 
 .left2-block ul {
@@ -950,17 +946,22 @@ a {
 }
 
 .left1-block ul li a {
-  display: block;
-  padding: 2px 28px;
-  text-decoration: none;
-  height: 16px;
-  width: 29px;
-  font-size: 12px;
-  font-weight: 500px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: rgb(96, 112, 255);
+  position: static;
+width: 29px;
+height: 16px;
+left: 12px;
+top: 4px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: #6070FF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
 }
 
 .frame12 {
@@ -991,14 +992,22 @@ a {
 }
 
 .left1-block ul li {
-  float: left;
-  text-align: center;
-  margin-right: 8px;
-  height: 18px;
-  width: 89px;
-  border-radius: 8px;
-  padding: 4px, 12px, 4px, 12px;
-  background: rgb(235, 235, 255);
+  position: static;
+width: 65px;
+height: 16px;
+left: 12px;
+top: 4px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: #6070FF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
 }
 
 .frame12 .language-list {
