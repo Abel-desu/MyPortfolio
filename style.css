@@ -1109,10 +1109,6 @@ a {
   line-height: 28px;
 }
 
-.top .connect p {
-  font-size: 16px;
-  color: rgb(127, 140, 255);
-}
 .action11 {
   position: static;
   width: 295px;
@@ -1124,6 +1120,7 @@ a {
   flex-grow: 0;
   margin: 16px 0;
 }
+
 .action11 p {
   height: 30px;
   width: 181px;
@@ -1139,6 +1136,12 @@ a {
   text-align: center;
   color: rgb(57, 109, 242);
 }
+
+.top .connect p {
+  font-size: 16px;
+  color: rgb(127, 140, 255);
+}
+
 .top .action {
   width: 200px;
 }
@@ -1454,10 +1457,12 @@ hr {
   .works-desktop {
     display: inline;
   }
+
   .section {
     display: flex;
     background-color: white;
-}
+  }
+
   .section1 {
     background-repeat: no-repeat;
     height: 839px;
@@ -1474,10 +1479,6 @@ hr {
     margin: 116px 24px 0 153px;
     padding-top: 147px;
     color: #172b4d;
-  }
-
-  .section {
-    display: flex;
   }
 
   .ul-style {
@@ -1502,8 +1503,7 @@ hr {
     margin-left: 100px;
     width: 145px;
     margin-top: 43px;
-    margin-left: 39px;
-}
+  }
 
   .ul-style li a {
     float: left;
@@ -1624,7 +1624,7 @@ hr {
     margin-top: 8px;
     margin-bottom: 59px;
     color: rgb(23, 43, 77);
-}
+  }
 
   .frame2 {
     display: flex;
@@ -1633,6 +1633,7 @@ hr {
     width: 354px;
     border-radius: 0;
   }
+
   .frame2 p {
     position: static;
     width: 91px;
@@ -1649,7 +1650,7 @@ hr {
     order: 0;
     flex-grow: 0;
     margin: -33px 0;
-}
+  }
 
   .frame2 .p1 {
     height: 113px;
@@ -1684,22 +1685,18 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    
+    padding: 0;
     position: static;
     width: 423px;
     height: 24px;
     left: 24px;
     top: 240px;
-    
-    
-    /* Inside auto layout */
-    
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin: 24px 0px;
+    margin: 24px 0;
   }
+
   .left1-block ul li {
     float: left;
     text-align: center;
@@ -1709,24 +1706,25 @@ hr {
     border-radius: 8px;
     padding: 4px, 12px, 4px, 12px;
     background: rgb(235, 235, 255);
-}
-.left1-block ul li a {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px 1px;
-  position: static;
-  width: 101px;
-  height: 31px;
-  left: 0px;
-  top: 0px;
-  background: #EBEBFF;
-  border-radius: 8px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: -2px 14px;
-}
+  }
+
+  .left1-block ul li a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1px;
+    position: static;
+    width: 101px;
+    height: 31px;
+    left: 0;
+    top: 0;
+    background: #ebebff;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -2px 14px;
+  }
 
   .about {
     display: none;
@@ -1813,6 +1811,7 @@ hr {
     flex-grow: 0;
     margin: -256px 0;
   }
+
   .left2-block ul {
     display: flex;
     flex-direction: row;
@@ -1827,7 +1826,8 @@ hr {
     order: 2;
     flex-grow: 0;
     margin: -202px -2px;
-}
+  }
+
   .left2-block ul li {
     float: left;
     text-align: center;
@@ -1837,11 +1837,12 @@ hr {
     border-radius: 8px;
     padding: 4px, 12px, 4px, 12px;
     background: rgb(235, 235, 255);
-}
+  }
 
   .left2-block ul li a {
     display: block;
     padding: 0 9px;
+
     /* text-decoration: none; */
     height: 16px;
     width: 79px;
@@ -1851,7 +1852,7 @@ hr {
     letter-spacing: 0.03em;
     text-align: center;
     color: rgb(96, 112, 255);
-}
+  }
 
   .card-work4 {
     display: flex;
@@ -2025,39 +2026,16 @@ hr {
 
   .frame11 ul {
     display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px;
-  position: static;
-  width: 414px;
-  height: 144px;
-  left: 0px;
-  top: 72px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 0px 0px;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    position: static;
+    width: 414px;
+    height: 144px;
+    left: 0;
+    top: 72px;
   }
 
-.frame11 ul li{
-  position: static;
-width: 122px;
-height: 120px;
-left: 280px;
-top: 12px;
-
-/* Neutrals/N10 */
-
-background: #F7F7F9;
-border-radius: 8px;
-
-/* Inside auto layout */
-
-flex: none;
-order: 2;
-flex-grow: 0;
-margin: 0px 12px;
-}
   .frame11 ul .my-work {
     position: absolute;
     height: 161px;
@@ -2095,6 +2073,26 @@ margin: 0px 12px;
     display: flex;
     align-items: center;
     color: #344563;
+  }
+
+  .frame11 ul .languages-list ul {
+    display: flex;
+    grid-gap: 20px;
+    width: auto;
+    margin-top: 0;
+    margin-right: 200px;
+  }
+
+  .frame11 ul .languages-list li {
+    display: list-item;
+    background: #f7f7f9;
+    border-radius: 8px;
+    height: 90px;
+    width: 130px;
+  }
+
+  .frame11 ul .languages-list li img {
+    padding-left: 10px;
   }
 
   .frame11 .my-work1 .greater-than {
