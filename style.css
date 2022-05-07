@@ -1121,7 +1121,7 @@ a {
 }
 
 .top .connect {
-  margin-top: 184px;
+  margin-top: 180px;
   margin-left: 0;
   text-align: left;
   height: 32px;
@@ -1267,7 +1267,7 @@ a {
 
 .text {
   position: absolute;
-  height: 6916px;
+  height: 7142px;
   left: 16px;
   top: calc(50% - 18px / 2);
   font-family: 'Poppins', sans-serif;
@@ -1494,7 +1494,7 @@ hr {
     height: 839px;
     width: 100%;
     background-image: url(./images/headerbg.png);
-    background-size: 100% 92%;
+    background-size: 100% 70%;
     border: 0;
     background-color: white;
   }
@@ -1531,9 +1531,42 @@ hr {
     margin-top: 43px;
   }
 
+  .ul-style li {
+    width: 68px;
+  }
+
   .ul-style li a {
     float: left;
     color: #344563;
+  }
+
+  .left-block ul {
+    gap: 10px;
+  }
+
+  .left-block ul li {
+    margin-right: 0;
+    height: 28px;
+  }
+
+  .javascript {
+    height: 30px;
+  }
+
+  .left1-block .ruby {
+    width: 80px;
+  }
+
+  .left1-block .html {
+    width: 35px;
+  }
+
+  .left1-block .css {
+    width: 32px;
+  }
+
+  .left1-block .javascript {
+    width: 65px;
   }
 
   .frame3 {
@@ -1549,6 +1582,10 @@ hr {
     height: 86px;
     width: auto;
     margin: -227px 140px 0 153px;
+  }
+
+  .text2 p {
+    width: 765px;
   }
 
   .let {
@@ -1720,7 +1757,7 @@ hr {
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin: 24px 0;
+    margin: 0;
   }
 
   .left1-block ul li {
@@ -1749,7 +1786,7 @@ hr {
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: -2px 14px;
+    margin: 0;
   }
 
   .left4-block {
@@ -1775,13 +1812,13 @@ hr {
     padding: 0;
     position: static;
     width: 360px;
-    height: 70px;
+    height: 375px;
     left: 0;
     top: 180px;
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin: -70px -11px;
+    gap: 10px;
   }
 
   .left4-block ul li {
@@ -1789,10 +1826,18 @@ hr {
     text-align: center;
     margin-right: 8px;
     height: 25px;
-    width: 81px;
+    width: 67px;
     border-radius: 8px;
     padding: 4px, 12px, 4px, 12px;
     background: rgb(235, 235, 255);
+  }
+
+  .left4-block .html {
+    width: 35px;
+  }
+
+  .left4-block .css {
+    width: 35px;
   }
 
   .about {
@@ -1882,26 +1927,28 @@ hr {
   }
 
   .left2-block ul {
+    gap: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0;
     position: static;
     width: 388px;
-    height: 70px;
+    height: 110px;
     left: 0;
     top: 180px;
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin: -202px -2px;
   }
 
   .left2-block ul li {
     float: left;
+    gap: 10px;
     text-align: center;
-    margin-right: 8px;
-    height: 35px;
+
+    /* margin-right: 8px; */
+    height: 28px;
     width: 98px;
     border-radius: 8px;
     padding: 4px, 12px, 4px, 12px;
@@ -1914,13 +1961,25 @@ hr {
 
     /* text-decoration: none; */
     height: 16px;
-    width: 79px;
+    width: 82px;
     font-size: 11px;
     font-weight: 500px;
     line-height: 10px;
     letter-spacing: 0.03em;
     text-align: center;
     color: rgb(96, 112, 255);
+  }
+
+  .left2-block .html {
+    width: 74px;
+  }
+
+  .left2-block .css {
+    width: 74px;
+  }
+
+  .left2-block .ruby {
+    width: 95px;
   }
 
   .card-work4 {
@@ -2229,7 +2288,7 @@ hr {
 
   .contact-form1 h2 {
     position: static;
-    width: 310px;
+    width: 288px;
     height: 56px;
     left: 33px;
     top: 0;
@@ -2246,6 +2305,7 @@ hr {
     order: 0;
     flex-grow: 0;
     margin: 94px 348px;
+    padding-left: 30px;
   }
 
   .contact-form1 p {
@@ -2294,6 +2354,7 @@ hr {
     order: 3;
     flex-grow: 0;
     margin: 26px 78px;
+    border: 1px solid #fff;
   }
 
   button:hover {
