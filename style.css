@@ -1676,7 +1676,6 @@ hr {
     margin-left: 249px;
     transition: transform 0.5s;
   }
-  
 
   .card-work2 .h2 {
     height: 60px;
@@ -1698,9 +1697,7 @@ hr {
     width: 354px;
     border-radius: 0;
   }
-.skill-list{
-  transition: transform 0.5s;
-}
+
   .frame2 p {
     position: static;
     width: 91px;
@@ -1717,7 +1714,6 @@ hr {
     order: 0;
     flex-grow: 0;
     margin: -33px 0;
-    
   }
 
   .frame2 .p1 {
@@ -1748,6 +1744,7 @@ hr {
     flex-grow: 0;
     margin: -136px 0;
   }
+
   .left1-block:hover {
     transform: translateY(-10px);
   }
@@ -1886,10 +1883,12 @@ hr {
     margin-bottom: 59px;
     color: rgb(23, 43, 77);
   }
-.card-work3,.card-work2
-.card-work{
-  transition: transform 0.5s;
-}
+
+  .card-work3,
+  .card-work2 .card-work {
+    transition: transform 0.5s;
+  }
+
   .frame3 p {
     position: static;
     width: 76px;
@@ -2141,6 +2140,7 @@ hr {
     height: 360px;
     left: 511px;
     top: -22px;
+    transform: 0.5s;
   }
 
   .text {
