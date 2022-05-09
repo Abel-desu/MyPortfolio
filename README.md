@@ -8,6 +8,10 @@ exercise how to make the portifolios
 - html and css
 - figma
 
+
+## live demo
+https://abel-desu.github.io/Portfolio-setup-and-mobile-version-skeleton/
+
 ## Authors
 
 ## 👤 **Author1**
