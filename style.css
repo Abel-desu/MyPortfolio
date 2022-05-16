@@ -35,7 +35,80 @@ html {
   margin-left: 24px;
   color: rgb(96, 112, 255);
 }
+.all{
+  position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+background: #6070FF;
+/*  */
+}
+.popup {
+  position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+background: #6070FF;
+z-index: 1;
+opacity: 85%;
 
+}
+.fa-solid{
+  position: absolute;
+left: 320px;
+right: 25%;
+top: 10%;
+bottom: 25%;
+border: 2px solid #67798E;
+}
+#portifolio{
+  position: absolute;
+height: 24px;
+left: 40px;
+right: 68px;
+top: 110px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+
+}
+#about{
+  position: absolute;
+height: 24px;
+left: 40px;
+right: 68px;
+top: 150px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+#contact{
+  position: absolute;
+height: 24px;
+left: 40px;
+right: 68px;
+top: 200px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
 .logo-holder {
   position: static;
   width: 76px;
