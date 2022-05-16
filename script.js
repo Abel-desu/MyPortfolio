@@ -18,7 +18,6 @@ open.addEventListener('click',()=> {
 <li id="contact">contact</li>
 </ul>
   </div>`
-
   window.appendChild(popup);
   header.appendChild(window);
 
