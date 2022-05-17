@@ -27,18 +27,11 @@ open.addEventListener('click', () => {
   });
   document.querySelector('#portifolio').addEventListener('click', () => {
     window.removeChild(popup);
-    overFlow.classList.remove('scroll');
-    blur.classList.remove('active');
   });
   document.querySelector('#about').addEventListener('click', () => {
     window.removeChild(popup);
-    overFlow.classList.remove('scroll');
-    blur.classList.remove('active');
   });
   document.querySelector('#contact').addEventListener('click', () => {
     window.removeChild(popup);
-    overFlow.classList.remove('scroll');
-    blur.classList.remove('active');
   });
- 
 });
