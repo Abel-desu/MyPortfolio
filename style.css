@@ -25,7 +25,90 @@ html {
   top: 56.83px;
   border: 2px solid #acb7c3;
 }
+.scroll{
+  overflow-y: hidden !important;
+}
+.all{
+  display: block;
+  position: fixed;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+height: 100%;
+width: 100%;
+background: #6070FF;
+mix-blend-mode: multiply;
+  z-index: 99;
+  backdrop-filter: blur(8px);
+}
+.close{
+  position: absolute;
+left: 75%;
+right: 25%;
+top: 10%;
+bottom: 25%;
 
+/* Base / 500 - Secondary */
+
+border: 0px solid #67798E;
+}
+/* #menue-button {
+  padding-top: 7px;
+  padding-bottom: 7px;
+} */
+button {
+  border-color: #7f8cff;
+  color: #7f8cff;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  width: fit-content;
+  transition: all 0.5s ease-out;
+}
+
+#portifolio{
+  display: flex;
+align-items: center;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 44px;
+margin-top: 100px;
+
+color: #FFFFFF;
+
+}
+#about{
+  
+    display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  /* Theme 1 / Neutrals 11 */
+  
+  color: #FFFFFF;
+  
+  }
+#contact{
+    display: flex;
+  align-items: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  /* Theme 1 / Neutrals 11 */
+  
+  color: #FFFFFF;
+  
+  
+}
 .my-logo {
   font-size: 18px;
   font-weight: 700px;
@@ -1599,7 +1682,7 @@ hr {
     position: absolute;
     left: 157.4px;
     right: 88.27%;
-    top: 616.8px;
+    top: 650.8px;
     bottom: 18.88%;
   }
 
@@ -1607,7 +1690,7 @@ hr {
     position: absolute;
     left: 194px;
     right: 77.87%;
-    top: 615.8px;
+    top: 650.8px;
     bottom: 18.87%;
   }
 
@@ -1615,7 +1698,7 @@ hr {
     position: absolute;
     left: 229.4px;
     right: 67.2%;
-    top: 620px;
+    top: 650px;
     bottom: 19.21%;
   }
 
@@ -1623,7 +1706,7 @@ hr {
     position: absolute;
     left: 262.1px;
     right: 57.07%;
-    top: 618px;
+    top: 650px;
     bottom: 18.87%;
   }
 
@@ -1631,7 +1714,7 @@ hr {
     position: absolute;
     left: 296.47px;
     right: 67.2%;
-    top: 619.8px;
+    top: 650.8px;
     bottom: 19.21%;
   }
 

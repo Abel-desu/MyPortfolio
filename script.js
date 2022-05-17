@@ -13,7 +13,7 @@ open.addEventListener('click', () => {
   popup.innerHTML = `<div class="all">
   <i class="fa-solid fa-xmark close"></i>
 <ul class="popup">
-<li id="portifolio">portifolio</li>
+<li id="portifolio" href="#portifolio">portifolio</li>
 <li id="about">about</li>
 <li id="contact">contact</li>
 </ul>
@@ -25,4 +25,20 @@ open.addEventListener('click', () => {
   close.addEventListener('click', () => {
     header.removeChild(window);
   });
+  document.querySelector('#portifolio').addEventListener('click', () => {
+    window.removeChild(popup);
+    overFlow.classList.remove('scroll');
+    blur.classList.remove('active');
+  });
+  document.querySelector('#about').addEventListener('click', () => {
+    window.removeChild(popup);
+    overFlow.classList.remove('scroll');
+    blur.classList.remove('active');
+  });
+  document.querySelector('#contact').addEventListener('click', () => {
+    window.removeChild(popup);
+    overFlow.classList.remove('scroll');
+    blur.classList.remove('active');
+  });
+ 
 });
