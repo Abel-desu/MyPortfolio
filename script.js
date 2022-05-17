@@ -12,10 +12,10 @@ open.addEventListener('click', () => {
   popup.className = 'popup';
   popup.innerHTML = `<div class="all">
   <i class="fa-solid fa-xmark close"></i>
-<ul class="popup">
-<li id="portifolio" href="#portifolio">portifolio</li>
-<li id="about">about</li>
-<li id="contact">contact</li>
+<ul id="popup">
+<li href="#portifolio">portifolio</li>
+<li>about</li>
+<li>contact</li>
 </ul>
   </div>`;
   window.appendChild(popup);
