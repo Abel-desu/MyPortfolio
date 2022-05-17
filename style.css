@@ -26,89 +26,68 @@ html {
   border: 2px solid #acb7c3;
 }
 
+.scroll {
+  overflow-y: hidden !important;
+}
+
+.all {
+  display: block;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: #6070ff;
+  mix-blend-mode: multiply;
+  z-index: 99;
+  backdrop-filter: blur(8px);
+}
+
+.close {
+  position: absolute;
+  left: 75%;
+  right: 25%;
+  top: 10%;
+  bottom: 25%;
+
+  /* Base / 500 - Secondary */
+
+  border: 0 solid #67798e;
+}
+
+/* #menue-button {
+  padding-top: 7px;
+  padding-bottom: 7px;
+} */
+button {
+  border-color: #7f8cff;
+  color: #7f8cff;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  width: fit-content;
+  transition: all 0.5s ease-out;
+}
+
+#popup {
+  font-weight: 600;
+  font-size: 32px;
+  color: #fff;
+}
+
 .my-logo {
   font-size: 18px;
-  font-weight: 700px;
+  font-weight: 700;
   font-weight: bold;
   line-height: 20px;
   letter-spacing: 0;
   margin-left: 24px;
   color: rgb(96, 112, 255);
 }
-.all{
-  position: absolute;
-left: 0px;
-right: 0px;
-top: 0px;
-bottom: 0px;
-background: #6070FF;
-/*  */
-}
-.popup {
-  position: absolute;
-left: 0px;
-right: 0px;
-top: 0px;
-bottom: 0px;
-background: #6070FF;
-z-index: 1;
-opacity: 85%;
 
-}
-.fa-solid{
-  position: absolute;
-left: 320px;
-right: 25%;
-top: 10%;
-bottom: 25%;
-border: 2px solid #67798E;
-}
-#portifolio{
-  position: absolute;
-height: 24px;
-left: 40px;
-right: 68px;
-top: 110px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 44px;
-display: flex;
-align-items: center;
-color: #FFFFFF;
-
-}
-#about{
-  position: absolute;
-height: 24px;
-left: 40px;
-right: 68px;
-top: 150px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 44px;
-display: flex;
-align-items: center;
-color: #FFFFFF;
-}
-#contact{
-  position: absolute;
-height: 24px;
-left: 40px;
-right: 68px;
-top: 200px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 44px;
-display: flex;
-align-items: center;
-color: #FFFFFF;
-}
 .logo-holder {
   position: static;
   width: 76px;
@@ -142,12 +121,13 @@ color: #FFFFFF;
 .let {
   margin-left: 24px;
 }
-.hamburger{
+
+.hamburger {
   margin-bottom: 55px;
 }
 
 .text3 {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 24px;
   line-height: 24px;
   letter-spacing: 0;
@@ -163,7 +143,7 @@ color: #FFFFFF;
 
 h1 {
   font-size: 40px;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 52px;
   letter-spacing: 0;
   text-align: left;
@@ -176,7 +156,7 @@ h1 {
 }
 
 .text2 p {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0;
@@ -414,7 +394,7 @@ a {
   height: 60px;
   width: 200px;
   font-size: 32px;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 44px;
   letter-spacing: 0;
   text-align: left;
@@ -513,7 +493,7 @@ a {
   height: 113px;
   width: 98px;
   font-size: 13px;
-  font-weight: 600px;
+  font-weight: 600;
   line-height: 16px;
   letter-spacing: 0;
   text-align: left;
@@ -524,7 +504,7 @@ a {
   height: 113px;
   width: 94px;
   font-size: 13px;
-  font-weight: 600px;
+  font-weight: 600;
   line-height: 16px;
   letter-spacing: 0;
   text-align: left;
@@ -535,7 +515,7 @@ a {
   height: 113px;
   width: 101px;
   font-size: 13px;
-  font-weight: 600px;
+  font-weight: 600;
   line-height: 16px;
   letter-spacing: 0;
   text-align: left;
@@ -600,7 +580,7 @@ a {
   height: 113px;
   width: 98px;
   font-size: 13px;
-  font-weight: 600px;
+  font-weight: 600;
   line-height: 16px;
   letter-spacing: 0;
   text-align: left;
@@ -639,7 +619,7 @@ a {
   text-align: left;
   margin-bottom: 9px;
   border-radius: 8px;
-  padding: 4px, 12px, 4px, 12px;
+  padding: 4px 12px 4px 12px;
 }
 
 .left4-block ul li {
@@ -834,7 +814,7 @@ a {
   height: 25px;
   width: 87px;
   border-radius: 8px;
-  padding: 4px, 12px, 4px, 12px;
+  padding: 4px 12px 4px 12px;
   background: rgb(235, 235, 255);
 }
 
@@ -845,7 +825,7 @@ a {
   height: 18px;
   width: 89px;
   border-radius: 8px;
-  padding: 4px, 12px, 4px, 12px;
+  padding: 4px 12px 4px 12px;
   background: rgb(235, 235, 255);
 }
 
@@ -928,8 +908,7 @@ a {
   margin-top: 0;
   padding: 0;
   font-size: 16px;
-  font-weight: 500px;
-  font-weight: medium;
+  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
   border: 1px solid rgb(57, 109, 242);
@@ -943,8 +922,7 @@ a {
   border-radius: 8px;
   padding: 0;
   font-size: 19px;
-  font-weight: 500px;
-  font-weight: medium;
+  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
   border: 1px solid rgb(57, 109, 242);
@@ -961,8 +939,7 @@ a {
   margin-top: 0;
   padding: 4px;
   font-size: 19px;
-  font-weight: 500px;
-  font-weight: medium;
+  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
   border: 1px solid rgb(57, 109, 242);
@@ -977,8 +954,7 @@ a {
   margin-top: 0;
   padding: 4px;
   font-size: 19px;
-  font-weight: 500px;
-  font-weight: medium;
+  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
   border: 1px solid rgb(57, 109, 242);
@@ -993,8 +969,7 @@ a {
   margin-top: 0;
   padding: 0;
   font-size: 19px;
-  font-weight: 500px;
-  font-weight: medium;
+  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
   border: 1px solid rgb(57, 109, 242);
@@ -1009,8 +984,7 @@ a {
   margin-top: 0;
   padding: 4px 4px;
   font-size: 19px;
-  font-weight: 500px;
-  font-weight: medium;
+  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
   border: 1px solid rgb(57, 109, 242);
@@ -1022,7 +996,7 @@ a {
   margin-top: 17px;
   height: 900px;
   width: 376px;
-  padding: 114px, 24px, 114px, 24px;
+  padding: 114px 24px 114px 24px;
 }
 
 .about .top {
@@ -1047,7 +1021,7 @@ a {
   height: 16px;
   width: 29px;
   font-size: 12px;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: center;
@@ -1061,7 +1035,7 @@ a {
   height: 16px;
   width: -13px;
   font-size: 12px;
-  font-weight: 500px;
+  font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: center;
@@ -1099,7 +1073,7 @@ a {
   height: 23px;
   width: 84px;
   border-radius: 8px;
-  padding: 4px, 12px, 4px, 12px;
+  padding: 4px 12px 4px 12px;
   background: rgb(235, 235, 255);
 }
 
@@ -1111,7 +1085,7 @@ a {
   margin-bottom: 10px;
   color: rgb(0, 0, 0);
   font-weight: bold;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 .frame12 .language-list li span {
@@ -1230,8 +1204,7 @@ a {
   margin-top: 0;
   padding: 4px;
   font-size: 19px;
-  font-weight: 500px;
-  font-weight: medium;
+  font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
   border: 1px solid rgb(57, 109, 242);
@@ -1589,7 +1562,7 @@ hr {
     /* margin-right: 45px; */
     height: 27px;
     width: 447px;
-    font-weight: 700px;
+    font-weight: 700;
     color: rgb(6 6 6);
     padding-left: 532px;
     gap: 70px;
@@ -1672,7 +1645,7 @@ hr {
     position: absolute;
     left: 157.4px;
     right: 88.27%;
-    top: 616.8px;
+    top: 650.8px;
     bottom: 18.88%;
   }
 
@@ -1680,7 +1653,7 @@ hr {
     position: absolute;
     left: 194px;
     right: 77.87%;
-    top: 615.8px;
+    top: 650.8px;
     bottom: 18.87%;
   }
 
@@ -1688,7 +1661,7 @@ hr {
     position: absolute;
     left: 229.4px;
     right: 67.2%;
-    top: 620px;
+    top: 650px;
     bottom: 19.21%;
   }
 
@@ -1696,7 +1669,7 @@ hr {
     position: absolute;
     left: 262.1px;
     right: 57.07%;
-    top: 618px;
+    top: 650px;
     bottom: 18.87%;
   }
 
@@ -1704,7 +1677,7 @@ hr {
     position: absolute;
     left: 296.47px;
     right: 67.2%;
-    top: 619.8px;
+    top: 650.8px;
     bottom: 19.21%;
   }
 
@@ -1757,7 +1730,7 @@ hr {
     height: 60px;
     width: 262px;
     font-size: 28px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 44px;
     letter-spacing: 0;
     text-align: left;
@@ -1796,7 +1769,7 @@ hr {
     height: 113px;
     width: 103px;
     font-size: 13px;
-    font-weight: 600px;
+    font-weight: 600;
     line-height: 16px;
     letter-spacing: 0;
     text-align: left;
@@ -1848,7 +1821,7 @@ hr {
     height: 28px;
     width: 86px;
     border-radius: 8px;
-    padding: 4px, 12px, 4px, 12px;
+    padding: 4px 12px 4px 12px;
     background: rgb(235, 235, 255);
   }
 
@@ -1909,7 +1882,7 @@ hr {
     height: 25px;
     width: 67px;
     border-radius: 8px;
-    padding: 4px, 12px, 4px, 12px;
+    padding: 4px 12px 4px 12px;
     background: rgb(235, 235, 255);
   }
 
@@ -1951,7 +1924,7 @@ hr {
     height: 60px;
     width: 200px;
     font-size: 26px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 44px;
     letter-spacing: 0;
     text-align: left;
@@ -1987,7 +1960,7 @@ hr {
     height: 113px;
     width: 94px;
     font-size: 13px;
-    font-weight: 600px;
+    font-weight: 600;
     line-height: 16px;
     letter-spacing: 0;
     text-align: left;
@@ -2037,7 +2010,7 @@ hr {
     height: 28px;
     width: 98px;
     border-radius: 8px;
-    padding: 4px, 12px, 4px, 12px;
+    padding: 4px 12px 4px 12px;
     background: rgb(235, 235, 255);
   }
 
@@ -2049,7 +2022,7 @@ hr {
     height: 16px;
     width: 82px;
     font-size: 11px;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 10px;
     letter-spacing: 0.03em;
     text-align: center;
@@ -2117,7 +2090,7 @@ hr {
     height: 113px;
     width: 113px;
     font-size: 13px;
-    font-weight: 600px;
+    font-weight: 600;
     line-height: 16px;
     letter-spacing: 0;
     text-align: left;
@@ -2216,14 +2189,12 @@ hr {
     height: 360px;
     left: 511px;
     top: -22px;
-    transform: 0.5s;
   }
 
   .text {
     position: absolute;
     height: 26px;
     left: 16px;
-    top: calc(50% - 18px / 2);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
