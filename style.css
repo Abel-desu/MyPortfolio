@@ -18,7 +18,9 @@ html {
 .ul-style {
   display: none;
 }
-
+.pop-link{
+  color:#fff;
+}
 .fa-bars {
   position: absolute;
   left: 339.67px;
@@ -47,20 +49,16 @@ html {
 
 .close {
   position: absolute;
-  left: 75%;
+  left: 80%;
   right: 25%;
-  top: 10%;
+  top: 5%;
   bottom: 25%;
-
-  /* Base / 500 - Secondary */
-
   border: 0 solid #67798e;
+  color: white;
+  height: 10px;
+  width: 10px;
 }
 
-/* #menue-button {
-  padding-top: 7px;
-  padding-bottom: 7px;
-} */
 button {
   border-color: #7f8cff;
   color: #7f8cff;
@@ -76,6 +74,7 @@ button {
   font-weight: 600;
   font-size: 32px;
   color: #fff;
+  padding-top: 80px;
 }
 
 .my-logo {
@@ -195,10 +194,10 @@ a {
 
 .twit1-icon {
   position: absolute;
-  left: 48.4px;
-  right: 88.27%;
-  top: 3623.8px;
-  bottom: 18.88%;
+    left: 72.4px;
+    right: 88.27%;
+    top: 3781.8px;
+    bottom: 18.88%;
 }
 
 .ln-icon {
@@ -211,10 +210,10 @@ a {
 
 .ln1-icon {
   position: absolute;
-  left: 74px;
-  right: 77.87%;
-  top: 3623.8px;
-  bottom: 18.87%;
+    left: 99px;
+    right: 77.87%;
+    top: 3782.8px;
+    bottom: 18.87%;
 }
 
 .git-icon {
@@ -227,9 +226,9 @@ a {
 
 .git1-icon {
   position: absolute;
-  left: 121.1px;
+  left: 125.1px;
   right: 57.07%;
-  top: 3623.8px;
+  top: 3782.8px;
   bottom: 18.87%;
 }
 
@@ -243,10 +242,10 @@ a {
 
 .m1-icon {
   position: absolute;
-  left: 98.4px;
-  right: 67.2%;
-  top: 3626.8px;
-  bottom: 19.21%;
+    left: 150.4px;
+    right: 67.2%;
+    top: 3784.8px;
+    bottom: 19.21%;
 }
 
 .a-icon {
@@ -259,9 +258,9 @@ a {
 
 .a1-icon {
   position: absolute;
-  left: 143.47px;
+  left: 179.47px;
   right: 67.2%;
-  top: 3623.8px;
+  top: 3783.8px;
   bottom: 19.21%;
 }
 
@@ -1171,7 +1170,7 @@ a {
 }
 
 .top .connect {
-  margin-top: 180px;
+  margin-top: 157px;
   margin-left: 0;
   text-align: left;
   height: 32px;
@@ -1316,7 +1315,7 @@ a {
 
 .text {
   position: absolute;
-  height: 7142px;
+  height: 7247px;
   left: 16px;
   top: calc(50% - 18px / 2);
   font-family: 'Poppins', sans-serif;

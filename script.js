@@ -13,9 +13,9 @@ open.addEventListener('click', () => {
   popup.innerHTML = `<div class="all">
   <i class="fa-solid fa-xmark close"></i>
 <ul id="popup">
-<li href="#portifolio">portifolio</li>
-<li>about</li>
-<li>contact</li>
+<li><a id="portifolio" class="pop-link" href="#port">portifolio</a></li>
+<li><a id="about-pop"class="pop-link" href="#about">about</a></li>
+<li><a id="contact-pop" class="pop-link" href="#contact">contact</a></li>
 </ul>
   </div>`;
   window.appendChild(popup);
@@ -28,10 +28,10 @@ open.addEventListener('click', () => {
   document.querySelector('#portifolio').addEventListener('click', () => {
     window.removeChild(popup);
   });
-  document.querySelector('#about').addEventListener('click', () => {
+  document.querySelector('#about-pop').addEventListener('click', () => {
     window.removeChild(popup);
   });
-  document.querySelector('#contact').addEventListener('click', () => {
+  document.querySelector('#contact-pop').addEventListener('click', () => {
     window.removeChild(popup);
   });
 });
