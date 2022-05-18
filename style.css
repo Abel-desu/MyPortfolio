@@ -18,9 +18,11 @@ html {
 .ul-style {
   display: none;
 }
-.pop-link{
-  color:#fff;
+
+.pop-link {
+  color: #fff;
 }
+
 .fa-bars {
   position: absolute;
   left: 339.67px;
@@ -194,10 +196,10 @@ a {
 
 .twit1-icon {
   position: absolute;
-    left: 72.4px;
-    right: 88.27%;
-    top: 3781.8px;
-    bottom: 18.88%;
+  left: 72.4px;
+  right: 88.27%;
+  top: 3781.8px;
+  bottom: 18.88%;
 }
 
 .ln-icon {
@@ -210,10 +212,10 @@ a {
 
 .ln1-icon {
   position: absolute;
-    left: 99px;
-    right: 77.87%;
-    top: 3782.8px;
-    bottom: 18.87%;
+  left: 99px;
+  right: 77.87%;
+  top: 3782.8px;
+  bottom: 18.87%;
 }
 
 .git-icon {
@@ -242,10 +244,10 @@ a {
 
 .m1-icon {
   position: absolute;
-    left: 150.4px;
-    right: 67.2%;
-    top: 3784.8px;
-    bottom: 19.21%;
+  left: 150.4px;
+  right: 67.2%;
+  top: 3784.8px;
+  bottom: 19.21%;
 }
 
 .a-icon {
