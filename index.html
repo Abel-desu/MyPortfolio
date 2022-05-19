@@ -309,11 +309,12 @@
                      I’d love to help with it </p>
             </div>
     
-            <form action="https://formspree.io/f/mzbokowp" method="POST">
-                <input id="name" name="Name" type="text" placeholder="Full Name" maxlength="30" required>
-                <input id="email" name="email" type="email"  placeholder="Email" required>
-                <textarea id="textarea" name="Message"  rows="10" maxlength="500" placeholder="write your message here" required></textarea>
+            <for id="contact-form" action="https://formspree.io/f/mzbokowp" method="POST">
+                <input class ="form-group" id="name-desktop" class="name" name="Name" type="text" placeholder="Full Name" maxlength="30" required>
+                <input class ="form-group" id="email-desktop" class="email" name="email" type="email"  placeholder="Email" required>
+                <textarea class ="form-group" class="textarea" name="Message"  rows="10" maxlength="500" placeholder="write your message here" required></textarea>
                 <button type="submit">Get it Touch</button>
+                <!-- <div id="error"></div> -->
             </form>
     
       
@@ -520,7 +521,7 @@
   </div>
 </div>
 </section>
-  <section class="contact-form1">
+  <section class="contact-form1" id="contact">
       <div>
           <h2>Contact Me</h2>
           <p>If you have an application you are interested in developing,
@@ -528,16 +529,24 @@
                I’d love to help with it </p>
       </div>
 
-      <form action="https://formspree.io/f/mzbokowp" method="POST">
-          <input id="1" name="Name" type="text" placeholder="Full Name" maxlength="30" required>
-          <input id="2" name="email" type="email"  placeholder="Email" required>
-          <textarea id="3" name="Message"  rows="10" maxlength="500" placeholder="write your message here" required></textarea>
-          <button type="submit">Get it Touch</button>
+      <form id="form" action="https://formspree.io/f/mzbokowp" method="POST">
+        <div>
+          <input id="name" name="Name" type="text" placeholder="Full Name" maxlength="30" required>
+        </div>
+        <div>
+          <input id="email" name="email" type="email"  placeholder="Email" required>
+        </div>
+        <div>
+          <textarea id="msg" name="Message"  rows="10" maxlength="500" placeholder="write your message here" required></textarea>
+          </div>
+          <button id="submit" type="submit">Get it Touch</button>
+          <div id="error"></div>
+          
+          </div>
       </form>
-
-
 <hr>
 </section> 
-<script src="script.js"></script>
+<script src="js/validation.js"></script>
+<script src="js/script.js"></script>
   </body>
  </html>
