@@ -2441,8 +2441,6 @@ hr {
     display: none;
   }
 
-
-
   button {
     display: flex;
     flex-direction: row;
@@ -2491,5 +2489,4 @@ hr {
     color: #5e6c84;
     border: 1px solid #e5e5e5;
   }
-}
 }
