@@ -283,23 +283,22 @@ a {
 }
 
 #name-desktop {
-  height: 25px;
+  height: 35px;
   width: 280px;
   border: 1px solid #fff;
   border-radius: 8px;
-  padding: 0 10px;
+  padding: 3px 10px;
   font: inherit;
-  margin-top: 13px;
+  margin-left: 89px;
 }
 
 #email-desktop {
-  height: 25px;
+  height: 35px;
   width: 280px;
   border: 1px solid #fff;
   border-radius: 8px;
-  padding: 0 10px;
+  padding: 3px 10px;
   font: inherit;
-  margin-top: 12px;
 }
 
 .left-block {
@@ -362,6 +361,21 @@ a {
   order: 2;
   flex-grow: 0;
   margin: 0 0;
+}
+
+.contact-form button {
+  font: inherit;
+  width: 140px;
+  height: 47px;
+  border-radius: 10px;
+  border: 1px solid #396df2;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 10px;
+  color: #396df2;
+  background: #fff;
+  margin: 6px 0 10px;
+  margin-left: 157px;
 }
 
 .left2-block {
@@ -922,6 +936,17 @@ a {
   margin: 22px -7px;
 }
 
+textarea {
+  width: 272px;
+  height: 120px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 18px 0;
+  font: inherit;
+  margin-left: 88px;
+  margin-right: 93px;
+}
+
 .action4 p {
   height: 30px;
   width: 150px;
@@ -1479,8 +1504,9 @@ a {
   color: #fff;
   display: flex;
   align-items: baseline;
-  margin-top: 0;
+  margin-top: -13px;
   padding-top: 0;
+  margin-left: 78px;
 }
 
 #name,
@@ -1497,29 +1523,6 @@ form {
   display: flex;
   flex-direction: column;
   grid-row-gap: 14px;
-}
-
-textarea {
-  width: 272px;
-  height: 120px;
-  border: 1px solid #fff;
-  border-radius: 8px;
-  padding: 20px 15px;
-  font: inherit;
-}
-
-.contact-form button {
-  font: inherit;
-  width: 140px;
-  height: 47px;
-  border-radius: 10px;
-  border: 1px solid #396df2;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 10px;
-  color: #396df2;
-  background: #fff;
-  margin: 6px 0 10px;
 }
 
 .contact-form button:hover {
@@ -1587,6 +1590,15 @@ hr {
     margin: 116px 24px 0 153px;
     padding-top: 147px;
     color: #172b4d;
+  }
+
+  textarea {
+    width: 272px;
+    height: 120px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 20px 15px;
+    font: inherit;
   }
 
   .ul-style {
@@ -2429,11 +2441,13 @@ hr {
     display: none;
   }
 
+
+
   button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 12px 16px;
+    padding: 12px 14px;
     position: static;
     width: 140px;
     height: 48px;
@@ -2444,8 +2458,22 @@ hr {
     flex: none;
     order: 3;
     flex-grow: 0;
-    margin: 26px 78px;
+    margin: 16px 153px;
     border: 1px solid #fff;
+  }
+
+  .contact-form button {
+    font: inherit;
+    width: 140px;
+    height: 47px;
+    border-radius: 10px;
+    border: 1px solid #396df2;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 10px;
+    color: #396df2;
+    background: #fff;
+    margin: 6px 0 10px;
   }
 
   button:hover {
@@ -2463,4 +2491,5 @@ hr {
     color: #5e6c84;
     border: 1px solid #e5e5e5;
   }
+}
 }
