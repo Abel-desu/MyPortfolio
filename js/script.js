@@ -85,3 +85,62 @@ open.addEventListener('click', () => {
      source: '', // Download the photo in the source button and add it's adress here 
    },
  ];
+
+ function display(index) {
+   const main = document.querySelector('main');
+   const {
+     title,
+     devs,
+     description,
+     tags,
+     image,
+     liveButton,
+     sourceButton,
+     live,
+     source,
+   } = projects[index];
+   const dev1 = devs[0];
+   const dev2 = devs[1];
+   const dev3 = devs[2];
+   const dev4 = devs[3];
+   const dev5 = devs[4];
+   const tag1 = tags[0];
+   const tag2 = tags[1];
+   const tag3 = tags[2];
+   const tag4 = tags[3];
+
+   const projectPopup = document.createElement('div');
+   projectPopup.className = 'project-popup';
+   projectPopup.innerHTML = `
+     <div class="desktop-window">
+       <div class="desktop-top-popup">
+         <h2>${title}</h2>
+         <button type='button' class="">X</button> ////Make sure to add your close-button class name///// remove this comment because it gives an error
+       </div>
+       <ul class=""> ////Make sure to add  the propperclass name///// remove this comment because it gives an error
+         <li class="dev1">${dev1}</li> 
+         <li class="dev2">${dev2}</li>
+         <li class="dev3">${dev3}</li>
+         <li class="dev4">${dev4}</li>
+         <li class="dev5">${dev5}</li>
+       </ul>
+       <img class="desktop-popup-snapshot" src=${image} alt="project 1 snapshot">  ////This is a new class, you can change it or keep it///// remove this comment because it gives an error
+       <p class="p-popup">${description}</p> ////This is a new class, you can change it or keep it///// remove this comment because it gives an error
+       <ul class="prog-languages">   ////Make sure to add  the propperclass name///// remove this comment because it gives an error
+         <li class="lang">${tag1}</li>   ////Make sure to add  the propperclass name///// remove this comment because it gives an error
+         <li class="lang">${tag2}</li>   ////
+         <li class="lang">${tag3}</li>   ////
+         <li class="lang">${tag4}</li>   ////
+       </ul>
+       <hr>
+       <button type='button' class="popup-button"> ////This is a new class, you can change it or keep it///// remove this comment because it gives an error
+         ${liveButton}
+         <img class="logo-popup-button" src=${live}> ////This is a new class, you can change it or keep it///// remove this comment because it gives an error
+       </button>
+       <button type='button' class="popup-button">  ////This is a new class, you can change it or keep it///// remove this comment because it gives an error
+         ${sourceButton}
+         <img class="logo-popup-button" src=${source}>  ////This is a new class, you can change it or keep it///// remove this comment because it gives an error
+       </button>
+     </div>`;
+
+ }
