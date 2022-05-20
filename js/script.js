@@ -1,7 +1,6 @@
 const header = document.querySelector('header');
 const section = document.createElement('section');
 header.appendChild(section);
-// section.innerHTML = `<p>Hello eorld</p>`;
 
 const open = document.querySelector('#menue-button');
 
@@ -45,11 +44,11 @@ const projects = [
     devs: ['CANOPY', '•', 'Back End Dev', '•', '2015'],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
     tags: ['html', 'css', 'javascript', ''],
-    image: 'images/1.png', // Add adress to project snapshot
-    liveButton: 'images/1.png', // This is a new button you don't need to change it
-    sourceButton: 'images/1.png', // This is a new button you don't need to change it
-    live: 'images/1.png', // Download the photo in the see live button and add it's adress here
-    source: 'images/1.png', // Download the photo in the source button and add it's adress here
+    image: 'images/Snapshootortfolio.jpg', // Add adress to project snapshot
+    liveButton: 'images/', // This is a new button you don't need to change it
+    sourceButton: 'images/', // This is a new button you don't need to change it
+    live: 'images/', // Download the photo in the see live button and add it's adress here
+    source: 'images/', // Download the photo in the source button and add it's adress here
   },
   {
     title: 'Multi-Post Stories',
@@ -115,7 +114,7 @@ function display(index) {
      <div class="desktop-window">
        <div class="desktop-top-popup">
          <h2>${title}</h2>
-         <button type='button' class="close">X</button>
+         <button type='button' class="close-button">X</button>
        </div>
        <ul class="devls"> 
          <li class="dev1">${dev1}</li> 
@@ -144,7 +143,7 @@ function display(index) {
      </div>`;
 
   main.appendChild(projectPopup);
-  const close = document.querySelector('close');
+  const close = document.querySelector('.close-button');
   close.addEventListener('click', () => {
     main.removeChild(projectPopup);
   });

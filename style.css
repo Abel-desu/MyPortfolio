@@ -2541,8 +2541,6 @@ hr {
   background-color: white;
   border-bottom-left-radius: 75px;
 }
-}
-
 .project-popup {
    display: block;
    position: fixed;
@@ -2580,3 +2578,4 @@ hr {
    width: 20px;
    height: 20px;
  }
+}
