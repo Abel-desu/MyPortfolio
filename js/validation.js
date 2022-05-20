@@ -12,74 +12,74 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-// const username = document.getElementById('name');
-// const email = document.getElementById('email');
-// const message = document.getElementById('msg');
-// const submit = document.getElementById('submit');
+const username = document.getElementById('name');
+const email = document.getElementById('email');
+const message = document.getElementById('msg');
+const submit = document.getElementById('submit');
 
-// function storeData() {
-//     const nameValue = username.value;
-//   const emailValue = email.value;
-//   const messageValue = message.value;
-//   const user = {
-//     nameValue,
-//     emailValue,
-//     messageValue,
-//   };
-//   if (nameValue && emailValue && messageValue) {
-//     const stringedUser = JSON.stringify(user);
-//     localStorage.setItem('user', stringedUser);
-//   }
-// }
+function storeData() {
+    const nameValue = username.value;
+  const emailValue = email.value;
+  const messageValue = message.value;
+  const user = {
+    nameValue,
+    emailValue,
+    messageValue,
+  };
+  if (nameValue && emailValue && messageValue) {
+    const stringedUser = JSON.stringify(user);
+    localStorage.setItem('user', stringedUser);
+  }
+}
 
-// submit.addEventListener('click', storeData);
-// username.addEventListener('keyup', storeData);
-// email.addEventListener('keyup', storeData);
-// message.addEventListener('keyup', storeData);
-// const username = document.getElementById('name');
-// const email = document.getElementById('email');
-// const message = document.getElementById('msg');
-// const submit = document.getElementById('submit');
+submit.addEventListener('click', storeData);
+username.addEventListener('keyup', storeData);
+email.addEventListener('keyup', storeData);
+message.addEventListener('keyup', storeData);
+const username = document.getElementById('name');
+const email = document.getElementById('email');
+const message = document.getElementById('msg');
+const submit = document.getElementById('submit');
 
-// function storeData() {
-//     const nameValue = username.value;
-//   const emailValue = email.value;
-//   const messageValue = message.value;
-//   const user = {
-//     nameValue,
-//     emailValue,
-//     messageValue,
-//   };
-//   if (nameValue && emailValue && messageValue) {
-//     const stringedUser = JSON.stringify(user);
-//     localStorage.setItem('user', stringedUser);
-//   }
-// }
+function storeData() {
+    const nameValue = username.value;
+  const emailValue = email.value;
+  const messageValue = message.value;
+  const user = {
+    nameValue,
+    emailValue,
+    messageValue,
+  };
+  if (nameValue && emailValue && messageValue) {
+    const stringedUser = JSON.stringify(user);
+    localStorage.setItem('user', stringedUser);
+  }
+}
 
-// submit.addEventListener('click', storeData);
-// username.addEventListener('keyup', storeData);
-// email.addEventListener('keyup', storeData);
-// message.addEventListener('keyup', storeData);const username = document.getElementById('name');
-// const email = document.getElementById('email');
-// const message = document.getElementById('msg');
-// const submit = document.getElementById('submit');
+submit.addEventListener('click', storeData);
+username.addEventListener('keyup', storeData);
+email.addEventListener('keyup', storeData);
+message.addEventListener('keyup', storeData);const username = document.getElementById('name');
+const email = document.getElementById('email');
+const message = document.getElementById('msg');
+const submit = document.getElementById('submit');
 
-// function storeData() {
-//     const nameValue = username.value;
-//   const emailValue = email.value;
-//   const messageValue = message.value;
-//   const user = {
-//     nameValue,
-//     emailValue,
-//     messageValue,
-//   };
-//   if (nameValue && emailValue && messageValue) {
-//     const stringedUser = JSON.stringify(user);
-//     localStorage.setItem('user', stringedUser);
-//   }
-// }
+function storeData() {
+    const nameValue = username.value;
+  const emailValue = email.value;
+  const messageValue = message.value;
+  const user = {
+    nameValue,
+    emailValue,
+    messageValue,
+  };
+  if (nameValue && emailValue && messageValue) {
+    const stringedUser = JSON.stringify(user);
+    localStorage.setItem('user', stringedUser);
+  }
+}
 
-// submit.addEventListener('click', storeData);
-// username.addEventListener('keyup', storeData);
-// email.addEventListener('keyup', storeData);
-// message.addEventListener('keyup', storeData);
+submit.addEventListener('click', storeData);
+username.addEventListener('keyup', storeData);
+email.addEventListener('keyup', storeData);
+message.addEventListener('keyup', storeData);
