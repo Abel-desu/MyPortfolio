@@ -1499,14 +1499,16 @@ textarea {
 #error {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  color: red;
   display: flex;
   align-items: baseline;
   margin-top: -13px;
   padding-top: 0;
   margin-left: 78px;
+  width: fit-content;
+  background-color: #fff;
 }
 
 #name,
