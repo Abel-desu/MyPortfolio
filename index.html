@@ -122,7 +122,7 @@
             <li><a href="#">javascript</a></li>
           </ul>
           <div class="action">
-            <a href="#"><p>See Project</p></a>
+            <button type='button' class="see-project">See Project</button>
           </div>
           </div>
       </div>  
@@ -154,7 +154,8 @@
                     <li><a href="#">javascript</a></li>
                   </ul>
           <div class="action1">
-          <a href="#"><p>See Project</p></a>
+            <button type='button' class="see-project">See Project</button>
+
           </div>
         </div>
       </div>
@@ -182,7 +183,7 @@
             <li><a href="#">javascript</a></li>
           </ul>
           <div class="action2">
-            <a href="#"><p>See Project</p></a>
+            <button type='button' class="see-project">See Project</button>
           </div>
           </div>
       </div>  
@@ -212,7 +213,8 @@
         <li><a href="#">javascript</a></li>
       </ul>
       <div class="action3">
-        <a href="#"><p>See Project</p></a>
+        <button type='button' id="see-project"class="see-project">See Project</button>
+
       </div>
     </div>
         </div>
@@ -310,14 +312,17 @@
             </div>
     
             <form id="contact-form" action="https://formspree.io/f/mzbokowp" method="POST">
-                <input  id="name-desktop" class="name" name="Name" type="text" placeholder="Full Name" maxlength="30" required>
-                <input  id="email-desktop" class="email" name="email" type="email"  placeholder="Email" required>
+                <input  id="name-mobile" class="name" name="Name" type="text" placeholder="Full Name" maxlength="30" required>
+                <input  id="email-mobile" class="email" name="email" type="email"  placeholder="Email" required>
                 <textarea  class="textarea" name="Message"  rows="10" maxlength="500" placeholder="write your message here" required></textarea>
-                <button type="submit">Get it Touch</button>
+                <div id="errormsg"></div>
+                <button class="submit" type="submit">Get it Touch</button>
                 <!-- <div id="error"></div> -->
             </form>
   <hr>
     </section> 
+    <main>
+
     <section class="works-desktop">
       <div class="card-work1">
         <div class="card-image">
@@ -343,7 +348,8 @@
             <li class="javascript"><a href="#">javascript</a></li>
           </ul>
           <div class="action">
-            <a href="#"><p>See Project</p></a>
+          <button type='button' class="show-project">See Project</button>
+
           </div>
           </div>
       </div>  
@@ -373,7 +379,8 @@
                     <li class="javascript"><a href="#">javascript</a></li>
                   </ul>
           <div class="action1">
-          <a href="#"><p>See Project</p></a>
+          <button type='button' class="show-project">See Project</button>
+
           </div>
         </div>
       </div>
@@ -401,7 +408,8 @@
             <li><a href="#">javascript</a></li>
           </ul>
           <div class="action2">
-            <a href="#"><p>See Project</p></a>
+          <button type='button' class="show-project">See Project</button>
+
           </div>
           </div>
       </div>  
@@ -430,7 +438,8 @@
             <li class="javascript"><a href="#">javascript</a></li>
           </ul>
   <div class="action1">
-  <a href="#"><p>See Project</p></a>
+      <button type='button' class="show-project">See Project</button>
+
   </div>
 </div>
 </div>
@@ -537,14 +546,17 @@
         <div>
           <textarea id="msg" name="Message"  rows="10" maxlength="500" placeholder="write your message here" required></textarea>
           </div>
-          <button id="submit" type="submit">Get it Touch</button>
           <div id="error"></div>
+          <button id="submit" type="submit">Get it Touch</button>
+          
           
           
       </form>
 <hr>
+
 </section> 
+</main>
 <script src="js/validation.js"></script>
-<script src="js/script.js"></script>
+<script defer src="js/script.js"></script>
   </body>
  </html>

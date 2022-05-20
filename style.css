@@ -68,8 +68,24 @@ button {
   border-radius: 5px;
   background-color: white;
   padding: 10px;
-  width: fit-content;
+  /* width: fit-content; */
+  width: 126px;
   transition: all 0.5s ease-out;
+}
+ button:hover {
+  background-color: #6010ff;
+  color: #fff;
+}
+
+ button:active {
+  background-color: #2230d2;
+  transition: 0.3s;
+}
+
+ button:disabled {
+  background-color: #fff;
+  color: #5e6c84;
+  border: 1px solid #e5e5e5;
 }
 
 #popup {
@@ -282,7 +298,7 @@ a {
   border-radius: 8px;
 }
 
-#name-desktop {
+#name-mobile{
   height: 35px;
   width: 280px;
   border: 1px solid #fff;
@@ -292,7 +308,7 @@ a {
   margin-left: 89px;
 }
 
-#email-desktop {
+#email-mobile {
   height: 35px;
   width: 280px;
   border: 1px solid #fff;
@@ -300,7 +316,21 @@ a {
   padding: 3px 10px;
   font: inherit;
 }
-
+#error {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: red;
+  display: flex;
+  align-items: baseline;
+  margin-top: -13px;
+  padding-top: 0;
+  margin-left: 78px;
+  width: fit-content;
+  background-color: #fff;
+  margin-left: 84px;
+}
 .left-block {
   display: grid;
   grid-template-areas:
@@ -374,7 +404,7 @@ a {
   line-height: 10px;
   color: #396df2;
   background: #fff;
-  margin: 6px 0 10px;
+  margin: -77px 0 10px;
   margin-left: 157px;
 }
 
@@ -1499,14 +1529,17 @@ textarea {
 #error {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  color: red;
   display: flex;
   align-items: baseline;
   margin-top: -13px;
   padding-top: 0;
   margin-left: 78px;
+  width: fit-content;
+  background-color: #fff;
+  margin-left: 84px;
 }
 
 #name,
@@ -2440,27 +2473,7 @@ hr {
   hr {
     display: none;
   }
-
-  button {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px 14px;
-    position: static;
-    width: 140px;
-    height: 48px;
-    left: 172.5px;
-    top: 347px;
-    background: #fff;
-    border-radius: 8px;
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-    margin: 16px 153px;
-    border: 1px solid #fff;
-  }
-
-  .contact-form button {
+  #form button {
     font: inherit;
     width: 140px;
     height: 47px;
@@ -2472,21 +2485,60 @@ hr {
     color: #396df2;
     background: #fff;
     margin: 6px 0 10px;
+    margin-left: 155px;
   }
 
-  button:hover {
+  #form button:hover {
     background-color: #6010ff;
     color: #fff;
   }
-
-  button:active {
+  
+  #form button:active {
     background-color: #2230d2;
     transition: 0.3s;
   }
-
-  button:disabled {
+  
+  #form button:disabled {
     background-color: #fff;
     color: #5e6c84;
     border: 1px solid #e5e5e5;
   }
+  .lang {
+    background: #ebebff;
+    border-radius: 8px;
+    padding: 4px 12px;
+  }
+  .prog-languages {
+    display: flex;
+    gap: 8px;
+    margin: 6px 100px 6px -40px;
+    color: #6070ff;
+    font-size: 12px;
+  }
+  .project-properties {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-right: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .snapshot,
+.snapshot2 {
+  min-width: 295px;
+  min-height: 220px;
+}
+#intro-content {
+  align-items: center;
+  max-width: fit-content;
+  padding: 0;
+  padding-top: 80px;
+}
+#intro {
+  background: url("./images/header-shapes-mobile.svg") no-repeat;
+  height: 600px;
+  background-color: white;
+  border-bottom-left-radius: 75px;
+}
 }
