@@ -37,7 +37,7 @@ open.addEventListener('click', () => {
 });
 
 // Project popup window
- const seeProject = document.querySelectorAll(''); // Add your see project button class
+ const seeProject = document.querySelectorAll('.new-button'); // Add your see project button class
 
  const projects = [
    {
