@@ -149,3 +149,8 @@ open.addEventListener('click', () => {
    main.removeChild(projectPopup);
    });
  }
+
+ // This for loop makes sure all projects can be displayed
+ for (let i = 0; i < seeProject.length; i + 1) {
+   seeProject[i].addEventListener('click', () => display(i));
+ }
