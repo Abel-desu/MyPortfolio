@@ -142,5 +142,10 @@ open.addEventListener('click', () => {
          <img class="logo-popup-button" src=${source}>  ////This is a new class, you can change it or keep it///// remove this comment because it gives an error
        </button>
      </div>`;
-
+   
+   main.appendChild(projectPopup);
+   const close = document.querySelector(''); // Add the class for the close button
+   close.addEventListener('click', () => {
+   main.removeChild(projectPopup);
+   });
  }
