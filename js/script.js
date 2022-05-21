@@ -45,11 +45,11 @@ const projects = [
     devs: ['CANOPY', '•', 'Back End Dev', '•', '2015'],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
     tags: ['html', 'Ruby on rails', 'css', 'javascript', 'github', 'Bootstraps'],
-    image: 'images/Snapshoot-popup.png', // Add adress to project snapshot
-    liveButton: 'live button', // This is a new button you don't need to change it
-    sourceButton: 'see source', // This is a new button you don't need to change it
-    live: 'images/icon.png', // Download the photo in the see live button and add it's adress here
-    source: 'images/Icon-GitHub.png', // Download the photo in the source button and add it's adress here
+    image: 'images/Snapshoot-popup.png',
+    liveButton: 'live button',
+    sourceButton: 'see source',
+    live: 'images/icon.png',
+    source: 'images/Icon-GitHub.png',
   },
   {
     id: 2,
@@ -60,8 +60,8 @@ const projects = [
     image: 'images/4.png',
     liveButton: 'live button',
     sourceButton: 'See Source',
-    live: 'images/icon.png', // Download the photo in the see live button and add it's adress here
-    source: 'images/Icon-GitHub.png', // Download the photo in the source button and add it's adress here
+    live: 'images/icon.png',
+    source: 'images/Icon-GitHub.png',
   },
   {
     id: 3,
@@ -69,11 +69,11 @@ const projects = [
     devs: ['FACEBOOK', '•', 'Full Stack Dev', '•', '2015'],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
     tags: ['html', 'Ruby on rails', 'css', 'javascript', 'github', 'Bootstraps'],
-    image: 'images/d3.png', // Add adress to project snapshot
+    image: 'images/d3.png',
     liveButton: 'live button',
     sourceButton: 'See Source',
-    live: 'images/icon.png', // Download the photo in the see live button and add it's adress here
-    source: 'images/Icon-GitHub.png', // Download the photo in the source button and add it's adress here
+    live: 'images/icon.png',
+    source: 'images/Icon-GitHub.png',
   },
   {
     id: 4,
@@ -81,11 +81,11 @@ const projects = [
     devs: ['Uber', '•', 'Lead Developer', '•', '2018'],
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
     tags: ['html', 'Ruby on rails', 'css', 'javascript', 'github', 'Bootstraps'],
-    image: 'images/d4.png', // Add adress to project snapshot
+    image: 'images/d4.png',
     liveButton: 'live button',
     sourceButton: 'See Source',
-    live: 'images/icon.png', // Download the photo in the see live button and add it's adress here
-    source: 'images/Icon-GitHub.png', // Download the photo in the source button and add it's adress here
+    live: 'images/icon.png',
+    source: 'images/Icon-GitHub.png',
   },
 ];
 
