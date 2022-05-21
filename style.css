@@ -2276,21 +2276,6 @@ hr {
     background: rgb(235, 235, 255);
   }
 
-  .left2-block ul li a {
-    display: block;
-    padding: 0 9px;
-
-    /* text-decoration: none; */
-    height: 16px;
-    width: 82px;
-    font-size: 11px;
-    font-weight: 500;
-    line-height: 10px;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: rgb(96, 112, 255);
-  }
-
   .left2-block .html {
     width: 74px;
   }
@@ -2299,8 +2284,19 @@ hr {
     width: 74px;
   }
 
-  .left2-block .ruby {
-    width: 95px;
+  .left2-block ul li a {
+    display: block;
+    padding: 0 9px;
+
+    /* text-decoration: none; */
+    height: 16px;
+    width: 76px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 10px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: rgb(96, 112, 255);
   }
 
   .card-work4 {
@@ -2398,7 +2394,7 @@ hr {
     width: 391px;
     height: 376px;
     left: 142px;
-    top: 3213px;
+    top: 3146px;
   }
 
   .twit1-icon {
@@ -2734,7 +2730,6 @@ hr {
     padding-left: 10px;
     padding-top: 10px;
   }
-
 
   .desktop-window p {
     width: 576px;
