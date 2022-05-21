@@ -2336,6 +2336,7 @@ hr {
   .card-image4 {
     margin-left: 159px;
   }
+
   .frame4 {
     display: flex;
     flex-direction: row;
@@ -2821,8 +2822,6 @@ hr {
     padding: 0;
     mix-blend-mode: multiply;
   }
-
-
 
   .desktopup-button {
     display: flex;
