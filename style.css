@@ -423,8 +423,6 @@ a {
   color: #396df2;
   background: #fff;
   margin: -77px 0 10px;
-
-
   margin-left: 157px;
 }
 
@@ -1656,6 +1654,7 @@ hr {
   padding-left: 20px;
   margin-left: 11px;
 }
+
 .top .action p {
   width: 200px;
 }
@@ -1685,7 +1684,6 @@ hr {
   height: 50%;
   margin-top: 13px;
   margin-left: -3px;
-
 }
 
 .popup-button {
@@ -1805,18 +1803,20 @@ hr {
   .works-desktop {
     display: inline;
   }
-.section{
-  display: flex;
-  position: fixed;
-  background: white;
-}
 
-.lang-button {
-  padding: 0;
-  gap: 12px;
-  margin-left: 48px;
-  margin-top: 41px;
-}
+  .section {
+    display: flex;
+    position: fixed;
+    background: white;
+  }
+
+  .lang-button {
+    padding: 0;
+    gap: 12px;
+    margin-left: 48px;
+    margin-top: 41px;
+  }
+
   .section1 {
     background-repeat: no-repeat;
     height: 718px;
@@ -1921,11 +1921,12 @@ hr {
     width: auto;
     margin-left: 161px;
   }
-.icon-list{
-  display: flex;
+
+  .icon-list {
+    display: flex;
     gap: 10px;
-  
-}
+  }
+
   .text2 p {
     width: 765px;
   }
@@ -1940,12 +1941,10 @@ hr {
 
   .ln-icon {
     position: inherit;
-
   }
 
   .m-icon {
     position: inherit;
-
   }
 
   .git-icon {
@@ -1954,7 +1953,6 @@ hr {
 
   .a-icon {
     position: inherit;
-
   }
 
   .card-image {
@@ -2208,12 +2206,14 @@ hr {
     margin-bottom: 59px;
     color: rgb(23, 43, 77);
   }
-.social_links{
-  position: static;
+
+  .social_links {
+    position: static;
     width: 199.17px;
     height: 20px;
     margin-left: 154px;
-}
+  }
+
   .card-work3,
   .card-work2 .card-work {
     transition: transform 0.5s;
@@ -2336,9 +2336,6 @@ hr {
   .card-image4 {
     margin-left: 159px;
   }
-.icons-img{
-
-}
   .frame4 {
     display: flex;
     flex-direction: row;
@@ -2719,7 +2716,7 @@ hr {
     padding: 0;
     gap: 12px;
     margin-left: -32px;
-}
+  }
 
   .popup-footer {
     display: flex;
@@ -2751,31 +2748,34 @@ hr {
     padding-left: 10px;
     padding-top: 10px;
   }
+
   .desktop-window {
     display: flex;
     flex-direction: column;
     position: absolute;
     width: 80%;
     height: 994px;
-    padding: 0px;
+    padding: 0;
     background: white;
     border-radius: 16px;
     margin-left: 75px;
     margin-top: 20px;
-}
-.desktop-window p {
-  width: 52%;
-  height: 382px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  color: #344563;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
+  }
+
+  .desktop-window p {
+    width: 52%;
+    height: 382px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
   .all-desktop-popup {
     display: flex;
     justify-content: space-between;
@@ -2791,7 +2791,7 @@ hr {
     width: 96%;
     height: 50%;
     margin-top: 13px;
-margin-left: -3px;
+    margin-left: -3px;
   }
 
   .popup-button {
@@ -2822,7 +2822,7 @@ margin-left: -3px;
     mix-blend-mode: multiply;
   }
 
- 
+
 
   .desktopup-button {
     display: flex;
