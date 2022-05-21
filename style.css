@@ -316,7 +316,7 @@ a {
   width: 280px;
   border: 1px solid #fff;
   border-radius: 8px;
-  padding: 3px 10px;
+  padding: 0 10px;
   font: inherit;
   margin-left: 89px;
 }
@@ -326,8 +326,27 @@ a {
   width: 280px;
   border: 1px solid #fff;
   border-radius: 8px;
-  padding: 3px 10px;
+  padding: 0 10px;
   font: inherit;
+}
+
+#errormsg {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  color: red;
+  display: flex;
+  align-items: baseline;
+  margin-top: 0;
+  padding-top: 0;
+  width: 50%;
+  background-color: #fff;
+  margin-left: 90px;
+}
+
+.submit {
+  margin-top: -8px;
 }
 
 .left-block {
@@ -404,6 +423,8 @@ a {
   color: #396df2;
   background: #fff;
   margin: -77px 0 10px;
+
+
   margin-left: 157px;
 }
 
@@ -1520,7 +1541,6 @@ textarea {
   color: red;
   display: flex;
   align-items: baseline;
-  margin-top: -13px;
   padding-top: 0;
   width: fit-content;
   background-color: #fff;
