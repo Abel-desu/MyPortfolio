@@ -423,6 +423,8 @@ a {
   color: #396df2;
   background: #fff;
   margin: -77px 0 10px;
+
+
   margin-left: 157px;
 }
 
@@ -895,6 +897,7 @@ a {
   text-align: center;
   margin-right: 8px;
   height: 25px;
+  width: 87px;
   border-radius: 8px;
   padding: 4px 12px 4px 12px;
   background: rgb(235, 235, 255);
@@ -1630,17 +1633,17 @@ hr {
   display: flex;
   flex-direction: column;
   position: absolute;
-  width: 60%;
-  height: 1050px;
+  width: 69%;
+  height: 1016px;
   padding: 0;
   background: white;
   border-radius: 16px;
-  margin-left: 18px;
+  margin-left: -18px;
   margin-top: 20px;
 }
 
 .desktop-window p {
-  width: 576px;
+  width: 80%;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1651,8 +1654,8 @@ hr {
   order: 0;
   flex-grow: 0;
   padding-left: 20px;
+  margin-left: 11px;
 }
-
 .top .action p {
   width: 200px;
 }
@@ -1678,8 +1681,11 @@ hr {
 .image-2,
 .image-3,
 .image-4 {
-  width: 100%;
+  width: 96%;
   height: 50%;
+  margin-top: 13px;
+  margin-left: -3px;
+
 }
 
 .popup-button {
@@ -1799,20 +1805,18 @@ hr {
   .works-desktop {
     display: inline;
   }
+.section{
+  display: flex;
+  position: fixed;
+  background: white;
+}
 
-  .section {
-    display: flex;
-    position: fixed;
-    background: white;
-  }
-
-  .lang-button {
-    padding: 0;
-    gap: 12px;
-    margin-left: 11px;
-    margin-top: 41px;
-  }
-
+.lang-button {
+  padding: 0;
+  gap: 12px;
+  margin-left: 48px;
+  margin-top: 41px;
+}
   .section1 {
     background-repeat: no-repeat;
     height: 718px;
@@ -1917,12 +1921,11 @@ hr {
     width: auto;
     margin-left: 161px;
   }
-
-  .icon-list {
-    display: flex;
+.icon-list{
+  display: flex;
     gap: 10px;
-  }
-
+  
+}
   .text2 p {
     width: 765px;
   }
@@ -1937,10 +1940,12 @@ hr {
 
   .ln-icon {
     position: inherit;
+
   }
 
   .m-icon {
     position: inherit;
+
   }
 
   .git-icon {
@@ -1949,6 +1954,7 @@ hr {
 
   .a-icon {
     position: inherit;
+
   }
 
   .card-image {
@@ -2202,14 +2208,12 @@ hr {
     margin-bottom: 59px;
     color: rgb(23, 43, 77);
   }
-
-  .social_links {
-    position: static;
+.social_links{
+  position: static;
     width: 199.17px;
     height: 20px;
     margin-left: 154px;
-  }
-
+}
   .card-work3,
   .card-work2 .card-work {
     transition: transform 0.5s;
@@ -2332,7 +2336,9 @@ hr {
   .card-image4 {
     margin-left: 159px;
   }
+.icons-img{
 
+}
   .frame4 {
     display: flex;
     flex-direction: row;
@@ -2712,8 +2718,8 @@ hr {
     align-items: flex-start;
     padding: 0;
     gap: 12px;
-    margin-left: 42px;
-  }
+    margin-left: -32px;
+}
 
   .popup-footer {
     display: flex;
@@ -2745,21 +2751,31 @@ hr {
     padding-left: 10px;
     padding-top: 10px;
   }
-
-  .desktop-window p {
-    width: 576px;
-    height: 382px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    color: #344563;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-
+  .desktop-window {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 80%;
+    height: 994px;
+    padding: 0px;
+    background: white;
+    border-radius: 16px;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+.desktop-window p {
+  width: 52%;
+  height: 382px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
   .all-desktop-popup {
     display: flex;
     justify-content: space-between;
@@ -2772,8 +2788,10 @@ hr {
   .image-2,
   .image-3,
   .image-4 {
-    width: 100%;
+    width: 96%;
     height: 50%;
+    margin-top: 13px;
+margin-left: -3px;
   }
 
   .popup-button {
@@ -2804,14 +2822,7 @@ hr {
     mix-blend-mode: multiply;
   }
 
-  .desktop-window {
-    margin: 0;
-    background-color: white;
-    height: 180%;
-    border-radius: 1rem;
-    width: 90%;
-    padding: 0;
-  }
+ 
 
   .desktopup-button {
     display: flex;
