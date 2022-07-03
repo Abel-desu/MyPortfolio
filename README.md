@@ -8,7 +8,7 @@ portfolio
 - html and css
 - figma
 ## live demo
-[demo](https://abel-desu.github.io/Portfolio-setup-and-mobile-version-skeleton/)
+[demo](https://abel-desu.github.io/MyPortfolio/)
 ## Authors
 
 ## 👤 **Author1**
