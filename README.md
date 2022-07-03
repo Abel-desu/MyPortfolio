@@ -1,8 +1,7 @@
 
 # Project Name
 portfolio
-> Description the project.
-this is my portifolio which display my projects 
+>this is my portifolio which display my projects 
 
 ## Built With
 
