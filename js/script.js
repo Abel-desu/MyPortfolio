@@ -1,4 +1,5 @@
-const header = document.querySelector('header');
+// Menu popup window
+const header = document.querySelector('body');
 const section = document.createElement('section');
 header.appendChild(section);
 
@@ -9,90 +10,132 @@ open.addEventListener('click', () => {
   window.className = 'window';
   const popup = document.createElement('div');
   popup.className = 'popup';
-  popup.innerHTML = `<div class="all">
-  <i class="fa-solid fa-xmark close"></i>
-<ul id="popup">
-<li><a id="portifolio" class="pop-link" href="#port">portifolio</a></li>
-<li><a id="about-pop"class="pop-link" href="#about">about</a></li>
-<li><a id="contact-pop" class="pop-link" href="#contact">contact</a></li>
-</ul>
+  popup.innerHTML = `
+  <section class="bg"></section>
+
+  <div class="all">
+    <button type='button' class="close-button">X</button>
+    <ul class="list-popup">
+        <li><a id="closer1" href="#port">Portifolio</a></li>
+        <li><a id="closer2" href="#about-me">About</a></li>
+        <li><a id="closer3" href="#form-section" </a>Contact</li>
+    </ul>
   </div>`;
+
   window.appendChild(popup);
   header.appendChild(window);
-
-  const close = document.querySelector('.close');
+  const close = document.querySelector('.close-button');
   close.addEventListener('click', () => {
     header.removeChild(window);
   });
-  document.querySelector('#portifolio').addEventListener('click', () => {
-    window.removeChild(popup);
+  document.querySelector('#closer1').addEventListener('click', () => {
+    header.removeChild(window);
   });
-  document.querySelector('#about-pop').addEventListener('click', () => {
-    window.removeChild(popup);
+  document.querySelector('#closer2').addEventListener('click', () => {
+    header.removeChild(window);
   });
-  document.querySelector('#contact-pop').addEventListener('click', () => {
-    window.removeChild(popup);
+  document.querySelector('#closer3').addEventListener('click', () => {
+    header.removeChild(window);
   });
 });
 
-// Project popup window
-const seeProject = document.querySelectorAll('.show-project'); // Add your see project button class
-const mobileProject = document.querySelectorAll('.mobile-project');
+// Project Object
 const projects = [
   {
-    id: 1,
     title: 'Tonic',
     devs: ['CANOPY', '•', 'Back End Dev', '•', '2015'],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-    tags: ['html', 'Ruby on rails', 'css', 'javascript', 'github', 'Bootstraps'],
-    image: 'images/Snapshoot-popup.png',
-    liveButton: 'live button',
-    sourceButton: 'see source',
-    live: 'images/icon.png',
-    source: 'images/Icon-GitHub.png',
+    description: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'A daily selection of privately personalized reads; no accounts or sign-ups required.'],
+    tags: ['html', 'css', 'javascript', ''],
+    image: './images/Snapshoot1-Portfolio.svg',
+    liveButton: 'See Live',
+    sourceButton: 'See Source',
+    live: 'images/live-version2.svg',
+    source: 'images/live-version.svg',
   },
   {
-    id: 2,
     title: 'Multi-Post Stories',
     devs: ['FACEBOOK', '•', 'Full Stack Dev', '•', '2015'],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-    tags: ['html', 'Ruby on rails', 'css', 'javascript', 'github', 'Bootstraps'],
-    image: 'images/4.png',
-    liveButton: 'live button',
+    description: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'A daily selection of privately personalized reads; no accounts or sign-ups required.'],
+    tags: ['html', 'Ruby on rails', 'css', 'javascript'],
+    image: './images/Snapshoot-Portfolio-2.png',
+    liveButton: 'See Live',
     sourceButton: 'See Source',
-    live: 'images/icon.png',
-    source: 'images/Icon-GitHub.png',
+    live: 'images/live-version2.svg',
+    source: 'images/live-version.svg',
   },
   {
-    id: 3,
     title: 'Facebook 360',
     devs: ['FACEBOOK', '•', 'Full Stack Dev', '•', '2015'],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-    tags: ['html', 'Ruby on rails', 'css', 'javascript', 'github', 'Bootstraps'],
-    image: 'images/d3.png',
-    liveButton: 'live button',
+    description: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'A daily selection of privately personalized reads; no accounts or sign-ups required.'],
+    tags: ['html', 'Ruby on rails', 'css', 'javascript'],
+    image: './images/Snapshoot-Portfolio-3.png',
+    liveButton: 'See Live',
     sourceButton: 'See Source',
-    live: 'images/icon.png',
-    source: 'images/Icon-GitHub.png',
+    live: 'images/live-version2.svg',
+    source: 'images/live-version.svg',
   },
   {
-    id: 4,
     title: 'Uber Navigation',
     devs: ['Uber', '•', 'Lead Developer', '•', '2018'],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-    tags: ['html', 'Ruby on rails', 'css', 'javascript', 'github', 'Bootstraps'],
-    image: 'images/d4.png',
-    liveButton: 'live button',
+    description: ['Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', 'A daily selection of privately personalized reads; no accounts or sign-ups required.'],
+    tags: ['html', 'Ruby on rails', 'css', 'javascript'],
+    image: './images/Snapshoot-Portfolio4.png',
+    liveButton: 'See Live',
     sourceButton: 'See Source',
-    live: 'images/icon.png',
-    source: 'images/Icon-GitHub.png',
+    live: 'images/live-version2.svg',
+    source: 'images/live-version.svg',
   },
 ];
+
+// Add project cards
+function show(index) {
+  const {
+    title,
+    devs,
+    description,
+    tags,
+    image,
+  } = projects[index];
+
+  const main = document.querySelector('.previous-work');
+  const project = document.createElement('div');
+  project.className = 'previous-work';
+  project.innerHTML = `
+  <section class="project">
+    <img class="snapshot" src=${image} alt="project 1 snapshot">
+    <div class="project-properties">
+      <h2>${title}</h2>
+      <ul class="tech">
+      <li class="company-name">${devs[0]}</li>
+      <li class="dev2">${devs[1]}</li>
+      <li class="dev3">${devs[2]}</li>
+      <li class="dev4">${devs[3]}</li>
+      <li class="dev5">${devs[4]}</li>
+      </ul>
+      <p>${description[1]}</p>
+      <ul class="prog-languages">
+      <li class="lang">${tags[0]}</li>
+      <li class="lang"  style="min-width: fit-content;">${tags[1]}</li>
+      <li class="lang">${tags[2]}</li>
+      <li class="lang">${tags[3]}</li>
+      </ul>
+      <button type='button' class="show-project">See Project</button>
+    </div>
+  </section>`;
+
+  main.appendChild(project);
+}
+
+for (let i = 0; i < 4; i += 1) {
+  show(i);
+}
+
+// Add popup window
+const seeProject = document.querySelectorAll('.show-project');
 
 function display(index) {
   const main = document.querySelector('main');
   const {
-    id,
     title,
     devs,
     description,
@@ -103,72 +146,57 @@ function display(index) {
     live,
     source,
   } = projects[index];
-  const dev1 = devs[0];
-  const dev2 = devs[1];
-  const dev3 = devs[2];
-  const dev4 = devs[3];
-  const dev5 = devs[4];
-  const tag1 = tags[0];
-  const tag2 = tags[1];
-  const tag3 = tags[2];
-  const tag4 = tags[3];
-  const tag5 = tags[4];
-  const tag6 = tags[5];
+
   const projectPopup = document.createElement('div');
   projectPopup.className = 'project-popup';
   projectPopup.innerHTML = `
-     <div class="desktop-window">
-     <div class="all-desktop-popup"
-       <div class="desktop-top-popup">
-         <h2>${title}</h2>
-         <button type='button' class="X-button">X</button>
-       </div>
-       <ul class="devls"> 
-         <li class="dev1">${dev1}</li> 
-         <li class="dev2">${dev2}</li>
-         <li class="dev3">${dev3}</li>
-         <li class="dev4">${dev4}</li>
-         <li class="dev5">${dev5}</li>
-       </ul>
-       <img class="desktop-popup-snapshot image-${id}" src=${image} alt="project 1 snapshot">  
-       <div class="popup-footer">
-       <p class="p-popup">${description}</p> 
-       <section class=lang-button>
-        <ul class="prog-languages">  
-        <ul class="ul">
-         <li class="lang">${tag1}</li>   
-         <li class="lang">${tag2}</li>  
-         <li class="lang">${tag3}</li> 
-         </ul>
-         <ul class="ul1">
-         <li class="lang">${tag4}</li>   
-         <li class="lang">${tag5}</li>   
-         <li class="lang">${tag6}</li>  
-         </ul>
-       </ul>
-       <div class ="desktopup-button">  
-       <button type='button' class="popup-button">
-         ${liveButton}
-         <img class="logo-popup-button" src=${live}> 
-       </button>
-       <button type='button' class="popup-button">  
-         ${sourceButton}
-         <img class="logo-popup-button" src=${source}>  
-       </button>
-       </section>
-     </div>
-     </div>
-     </div>
-     </div>`;
+    <div class="desktop-window">
+    <div class="all-popup">
+        <div class="desktop-top-popup">
+          <h2>${title}</h2>
+          <button type='button' class="close-button">X</button>
+          </div>
+        <ul class="tech">
+        <li class="company-name">${devs[0]}</li>
+        <li class="dev2">${devs[1]}</li>
+        <li class="dev3">${devs[2]}</li>
+        <li class="dev4">${devs[3]}</li>
+        <li class="dev5">${devs[4]}</li>
+        </ul>
+        <img class="desktop-popup-snapshot" src=${image} alt="project 1 snapshot">
+        <div class="bottom-container">
+          <p class="p-popup">${description[0]}</p>
+          <div class="small-container">
+            <ul class="prog-languages">
+              <li class="lang">${tags[0]}</li>
+              <li class="lang"  style="min-width: fit-content;">${tags[1]}</li>
+              <li class="lang">${tags[2]}</li>
+              <li class="lang">${tags[3]}</li>
+            </ul>
+            <hr class="line">
+            <section class="buttons">
+            <a><button type='button' class="popup-button">
+              ${liveButton}
+              <img class="button-logo" src=${live}>
+            </button></a>
+            <a><button type='button' class="popup-button">
+              ${sourceButton}
+              <img class="button-logo" src=${source}>
+            </button></a>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div></div>`;
+
   main.appendChild(projectPopup);
-  const close = document.querySelector('.X-button');
+  const close = document.querySelector('.close-button');
   close.addEventListener('click', () => {
     main.removeChild(projectPopup);
   });
 }
+
 for (let i = 0; i < seeProject.length; i += 1) {
   seeProject[i].addEventListener('click', () => display(i));
-}
-for (let i = 0; i < mobileProject.length; i += 1) {
-  mobileProject[i].addEventListener('click', () => display(i));
 }
